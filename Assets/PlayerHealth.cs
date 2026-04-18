@@ -5,6 +5,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3;
     private int currentHealth;
+     public Animator animator;
 
     void Start()
     {
@@ -16,6 +17,10 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
         Debug.Log("Health: " + currentHealth);
 
+        animator.SetInteger("Animate", 1);
+        GetComponent<PlayerMovement>().LockAnimation(1f);
+        Invoke("ReturnIdle", 1f);
+
         if (currentHealth <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -25,5 +30,10 @@ public class PlayerHealth : MonoBehaviour
     public int GetHealth()
     {
         return currentHealth;
+    }
+
+    void ReturnIdle()
+    {
+        animator.SetInteger("Animate", 0);
     }
 }
