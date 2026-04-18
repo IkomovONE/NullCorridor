@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
+    public Transform flashlight;
     float idleTimer;
     public float speed = 5f;
     bool animationLocked = false;
@@ -39,11 +40,66 @@ public class PlayerMovement : MonoBehaviour
         if (movement.x < 0)
         {
             sr.flipX = true;
+            flashlight.localRotation = Quaternion.Euler(0, 1, 180);
+            flashlight.localPosition = new Vector3(0, 1, 0);
+
+            if (movement.y > 0)
+            {
+                flashlight.localRotation = Quaternion.Euler(0, 0, -220);
+                flashlight.localPosition = new Vector3(0.40f, 1, 0);
+
+            }
+
+            else if (movement.y < 0)
+            {
+                flashlight.localRotation = Quaternion.Euler(0, 0, -150);
+                flashlight.localPosition = new Vector3(0, 1, 0);
+
+            }
+            
+            
+           
         }
         else if (movement.x > 0)
         {
             sr.flipX = false;
+            flashlight.localRotation = Quaternion.Euler(0, 0, 0);
+            flashlight.localPosition = new Vector3(0, 0, 0);
+
+            if (movement.y > 0)
+            {
+                sr.flipX = false;
+                flashlight.localRotation = Quaternion.Euler(0, 0, 60);
+                flashlight.localPosition = new Vector3(0.40f, 0, 0);
+
+            }
+
+            else if (movement.y < 0)
+            {
+                sr.flipX = false;
+                flashlight.localRotation = Quaternion.Euler(0, 0, -20);
+                flashlight.localPosition = new Vector3(-0.4f, 0.20f, 0);
+
+            }
+            
         }
+
+        else if (movement.y > 0)
+        {
+            sr.flipX = false;
+            flashlight.localRotation = Quaternion.Euler(0, 0, 90);
+            flashlight.localPosition = new Vector3(0.40f, 1, 0);
+            
+        }
+
+        else if (movement.y < 0)
+        {
+            sr.flipX = false;
+            flashlight.localRotation = Quaternion.Euler(0, 0, -90);
+            flashlight.localPosition = new Vector3(-0.60f, 0.70f, 0);
+            
+        }
+
 
         if (!animationLocked)
         {
