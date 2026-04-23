@@ -1,31 +1,64 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+
+using UnityEngine;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 3;
-    private int currentHealth;
-     public Animator animator;
+    public int MaxHealth = 10;
+
+
+    public int currentHealth = 10;
+
+    private SpriteRenderer sr;
+    private Rigidbody2D rb;
+
+    public Animator animator;
 
     void Start()
     {
-        currentHealth = maxHealth;
+        sr = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
+
+        
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int amount)
     {
-        currentHealth -= damage;
-        Debug.Log("Health: " + currentHealth);
+        currentHealth -= amount;
+        FindObjectOfType<UIManager>().UpdateHealth(currentHealth, MaxHealth);
 
-        animator.SetInteger("Animate", 1);
-        GetComponent<PlayerMovement>().LockAnimation(1f);
-        Invoke("ReturnIdle", 1f);
+        StartCoroutine(DamageFlash());
+
+        Debug.Log("HP: " + currentHealth);
 
         if (currentHealth <= 0)
         {
+            Debug.Log("Player Dead");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
+
+    public void Knockback(Vector2 sourcePos, float force)
+    {
+        Vector2 dir = ((Vector2)transform.position - sourcePos).normalized;
+
+        transform.position += (Vector3)(dir * force);
+    }
+
+    IEnumerator DamageFlash()
+    {
+        sr.color = Color.red;
+
+        FindFirstObjectByType<DamageFlashUI>().Flash();
+
+        yield return new WaitForSeconds(0.5f);
+
+        sr.color = Color.white;
+    }
+
 
     public int GetHealth()
     {
