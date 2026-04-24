@@ -33,6 +33,7 @@ public class PickupItem : MonoBehaviour
         PlayerHealth hp = other.GetComponent<PlayerHealth>();
         PlayerMovement movement = other.GetComponent<PlayerMovement>();
         PlayerSanity sanity = other.GetComponent<PlayerSanity>();
+        PlayerGun gun = other.GetComponent<PlayerGun>();
 
         switch (pickupType)
         {
@@ -66,7 +67,9 @@ public class PickupItem : MonoBehaviour
                 break;
 
             case PickupType.Ammo:
-                // later
+
+                gun.AddAmmo(1);
+                
                 break;
         }
 

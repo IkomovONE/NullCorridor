@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89bd917f03e377549b0a61dd595e061b
+guid: 61b861729b61a4f688b3b34b00a2eba5
 AudioImporter:
   externalObjects: {}
   serializedVersion: 8
@@ -21,10 +21,3 @@ AudioImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 325419
-  packageName: Backrooms Entity SFX (Free)
-  packageVersion: 1.0
-  assetPath: Assets/Entity_SFX_2/juanjo_sound - Backroom Entities 2 - 8.wav
-  uploadId: 769693

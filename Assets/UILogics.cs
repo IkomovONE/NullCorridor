@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 using System.Collections;
 
 public class UIManager : MonoBehaviour
@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour
     public Image healthFill;
     public Image staminaFill;
     public Image sanityFill;
+
+    public TMP_Text ammoText;
 
     Coroutine hpGlow;
     Coroutine stmGlow;
@@ -45,6 +47,19 @@ public class UIManager : MonoBehaviour
     {
         sanityFill.fillAmount = current / max;
     }
+
+    public void UpdateAmmo(float current, float max)
+    {
+        ammoText.text = current + "/" + max;
+
+        if(current < 1)
+
+            ammoText.color = Color.red;
+
+        else
+
+            ammoText.color = new Color32(138, 138, 138, 255);
+            }
 
     public void GlowHealth()
     {

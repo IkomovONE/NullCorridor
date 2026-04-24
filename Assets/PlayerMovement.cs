@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform flashlight;
     public SpriteRenderer sr;
 
+    public Transform gunPivot;
+    public SpriteRenderer gunSR;
     float idleTimer;
     bool animationLocked = false;
 
@@ -29,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+
+        gunSR = gunPivot.GetComponentInChildren<SpriteRenderer>();
 
         ui = FindFirstObjectByType<UIManager>();
 
@@ -79,6 +83,11 @@ public class PlayerMovement : MonoBehaviour
         if (movement.x < 0)
         {
             sr.flipX = true;
+            //gunPivot.localRotation = Quaternion.Euler(0,0,45);
+            gunSR.flipY = true;
+            gunPivot.localRotation = Quaternion.Euler(0, 1, 180);
+            gunPivot.localPosition = new Vector3(0, 1, 0);
+
             flashlight.localRotation = Quaternion.Euler(0, 1, 180);
             flashlight.localPosition = new Vector3(0, 1, 0);
 
@@ -86,16 +95,28 @@ public class PlayerMovement : MonoBehaviour
             {
                 flashlight.localRotation = Quaternion.Euler(0, 0, -220);
                 flashlight.localPosition = new Vector3(0.40f, 1, 0);
+
+                gunPivot.localRotation = Quaternion.Euler(0, 0, -220);
+                gunPivot.localPosition = new Vector3(0.40f, 0.80f, 0);
             }
             else if (movement.y < 0)
             {
+
+                
                 flashlight.localRotation = Quaternion.Euler(0, 0, -150);
                 flashlight.localPosition = new Vector3(0, 1, 0);
+
+                gunPivot.localRotation = Quaternion.Euler(0, 0, 220);
+                gunPivot.localPosition = new Vector3(-0.50f, 1, 0);
             }
         }
         else if (movement.x > 0)
         {
             sr.flipX = false;
+            gunSR.flipY = false;
+            gunPivot.localRotation = Quaternion.Euler(0, 0, 0);
+            gunPivot.localPosition = new Vector3(0, 0.1f, 0);
+
             flashlight.localRotation = Quaternion.Euler(0, 0, 0);
             flashlight.localPosition = new Vector3(0, 0, 0);
 
@@ -103,11 +124,17 @@ public class PlayerMovement : MonoBehaviour
             {
                 flashlight.localRotation = Quaternion.Euler(0, 0, 60);
                 flashlight.localPosition = new Vector3(0.40f, 0, 0);
+
+                gunPivot.localRotation = Quaternion.Euler(0, 0, 60);
+                gunPivot.localPosition = new Vector3(0.40f, 0.20f, 0);
             }
             else if (movement.y < 0)
             {
                 flashlight.localRotation = Quaternion.Euler(0, 0, -20);
                 flashlight.localPosition = new Vector3(-0.4f, 0.20f, 0);
+
+                gunPivot.localRotation = Quaternion.Euler(0, 0, -20);
+                gunPivot.localPosition = new Vector3(0, 0.20f, 0);
             }
         }
         else if (movement.y > 0)
@@ -115,12 +142,18 @@ public class PlayerMovement : MonoBehaviour
             sr.flipX = false;
             flashlight.localRotation = Quaternion.Euler(0, 0, 90);
             flashlight.localPosition = new Vector3(0.40f, 1, 0);
+            gunSR.flipY = true;
+            gunPivot.localRotation = Quaternion.Euler(0, 0, 80);
+            gunPivot.localPosition = new Vector3(0.70f, 0.20f, 0);
         }
         else if (movement.y < 0)
         {
             sr.flipX = false;
             flashlight.localRotation = Quaternion.Euler(0, 0, -90);
             flashlight.localPosition = new Vector3(-0.60f, 0.70f, 0);
+            gunSR.flipY = false;
+            gunPivot.localRotation = Quaternion.Euler(0, 0, -90);
+            gunPivot.localPosition = new Vector3(-0.30f, 0.65f, 0);
         }
 
         // ANIMATION

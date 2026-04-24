@@ -1,10 +1,13 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyMove : MonoBehaviour
 {
 
     public LayerMask wallLayer;
     public Transform player;
+
+    public int health = 1;
 
     private Animator animator;
     private SpriteRenderer sr;
@@ -18,6 +21,9 @@ public class EnemyMove : MonoBehaviour
 
     public AudioClip chaseSound;
     public AudioClip attackSound;
+
+    public AudioClip deathSound;
+    public AudioClip damageSound;
 
     private AudioSource audioSource;
     private bool wasChasing = false;
@@ -37,6 +43,8 @@ public class EnemyMove : MonoBehaviour
     public float attackCooldown = 0.8f;
 
     private float nextAttackTime = 0.5f;
+
+    bool dead = false;
 
     void Start()
     {
@@ -73,6 +81,9 @@ public class EnemyMove : MonoBehaviour
     void Update()
     {
         if (player == null) return;
+
+        
+        
 
         float dist = Vector2.Distance(transform.position, player.position);
 
@@ -123,7 +134,9 @@ public class EnemyMove : MonoBehaviour
 
     void Chase()
     {
+        if (dead) return;
         animator.SetBool("isMoving", true);
+        animator.SetBool("isIdling", false);
         animator.speed = 1.5f;
 
         transform.position = Vector2.MoveTowards(
@@ -140,13 +153,15 @@ public class EnemyMove : MonoBehaviour
 
     void Attack()
     {
-        // If recovering after previous hit
+        if (dead) return;
+        
         if (attackRecoverTimer > 0)
         {
             attackRecoverTimer -= Time.deltaTime;
 
             animator.SetBool("isAttacking", true);
             animator.SetBool("isMoving", false);
+            animator.SetBool("isIdling", false);
             animator.speed = 1f;
 
             return;
@@ -181,11 +196,14 @@ public class EnemyMove : MonoBehaviour
 
     void Patrol()
     {
+        if (dead) return;
+        
         // idle phase
         if (idleTimer > 0f)
         {
             idleTimer -= Time.deltaTime;
             animator.SetBool("isMoving", false);
+            animator.SetBool("isIdling", true);
             return;
         }
 
@@ -218,5 +236,52 @@ public class EnemyMove : MonoBehaviour
 
         if (distFromCenter < -patrolRange)
             movingRight = true;
+    }
+
+    public void TakeDamage(int amount)
+
+    {
+        if (dead) return;
+
+        health -= amount;
+        
+        if (health != 0) StartCoroutine(PlayHalfSound(damageSound, 1f));
+        Debug.Log("Enemy HP: " + health);
+
+        if (health <= 0)
+
+            Die();
+
+    }
+
+    public void Die()
+
+    {   
+
+        if (dead) return;
+        dead = true;
+        animator.speed = 1f;
+        audioSource.PlayOneShot(deathSound);
+        animator.SetBool("isIdling", false);
+        animator.SetBool("isMoving", false);
+        animator.SetBool("isAttacking", false);
+        
+        animator.SetTrigger("Die");
+        animator.Play("Smiley_die", 0, 0f);
+
+        
+
+        Destroy(gameObject, 0.7f);
+
+    }
+
+    IEnumerator PlayHalfSound(AudioClip clip, float duration)
+    {
+        audioSource.clip = clip;
+        audioSource.Play();
+
+        yield return new WaitForSeconds(duration);
+
+        audioSource.Stop();
     }
 }
