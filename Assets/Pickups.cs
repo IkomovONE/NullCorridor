@@ -68,7 +68,7 @@ public class PickupItem : MonoBehaviour
 
             case PickupType.Ammo:
 
-                gun.AddAmmo(1);
+                gun.AddAmmo(2);
                 
                 break;
         }

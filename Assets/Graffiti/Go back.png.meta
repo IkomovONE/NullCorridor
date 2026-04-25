@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: f8de4e1d5a94e494d94ea97e24fc7957
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7587992868349753613
+    second: New Project-5_0
+  - first:
+      213: -4216612977490429715
+    second: New Project-5_1
+  - first:
+      213: -5217190582763413171
+    second: New Project-5_2
+  - first:
+      213: 3466763142004652335
+    second: New Project-5_3
+  - first:
+      213: 3753644941584562083
+    second: New Project-5_4
+  - first:
+      213: 180567755397740542
+    second: New Project-5_5
+  - first:
+      213: 6070564069358951241
+    second: New Project-5_6
+  - first:
+      213: -2688031564241850694
+    second: New Project-5_7
+  - first:
+      213: -8110976314550527824
+    second: New Project-5_8
+  - first:
+      213: -4134012605398449256
+    second: New Project-5_9
+  - first:
+      213: -4592160699845273364
+    second: New Project-5_10
+  - first:
+      213: 4463554669625454911
+    second: New Project-5_11
+  - first:
+      213: 3278233240943849736
+    second: New Project-5_12
+  - first:
+      213: -8263330360165273970
+    second: New Project-5_13
+  - first:
+      213: -5975837395866008067
+    second: New Project-5_14
+  - first:
+      213: 5029834492333454531
+    second: New Project-5_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: New Project-5_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 3077
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6c0db60b802b690800000000000000
+      internalID: -7587992868349753613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_1
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 2886
+        width: 299
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8716966d49b75c0800000000000000
+      internalID: -4216612977490429715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2688
+        width: 113
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41afdc8ec0d897b0800000000000000
+      internalID: -5217190582763413171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1960
+        width: 631
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29ba9fb5ba6c1030800000000000000
+      internalID: 3466763142004652335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_4
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 2055
+        width: 597
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7f61ccf20a71430800000000000000
+      internalID: 3753644941584562083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_5
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 2433
+        width: 266
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef73f56ba61818200800000000000000
+      internalID: 180567755397740542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1799
+        width: 129
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bd36c9bd9fe3450800000000000000
+      internalID: 6070564069358951241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_7
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1918
+        width: 294
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abea35cb88132bad0800000000000000
+      internalID: -2688031564241850694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_8
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1753
+        width: 268
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8db950406007f80800000000000000
+      internalID: -8110976314550527824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1036
+        width: 313
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8930d36307901a6c0800000000000000
+      internalID: -4134012605398449256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1020
+        width: 498
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8963e7c2e5540c0800000000000000
+      internalID: -4592160699845273364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_11
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1050
+        width: 362
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31bf86b25bb1fd30800000000000000
+      internalID: 4463554669625454911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_12
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1022
+        width: 388
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801f55983cf9e7d20800000000000000
+      internalID: 3278233240943849736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 656
+        width: 214
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ee5a481d0c25d80800000000000000
+      internalID: -8263330360165273970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_14
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 595
+        width: 151
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df549efbc8f811da0800000000000000
+      internalID: -5975837395866008067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-5_15
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 494
+        width: 372
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4fa8252df8dc540800000000000000
+      internalID: 5029834492333454531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      New Project-5_0: -7587992868349753613
+      New Project-5_1: -4216612977490429715
+      New Project-5_10: -4592160699845273364
+      New Project-5_11: 4463554669625454911
+      New Project-5_12: 3278233240943849736
+      New Project-5_13: -8263330360165273970
+      New Project-5_14: -5975837395866008067
+      New Project-5_15: 5029834492333454531
+      New Project-5_2: -5217190582763413171
+      New Project-5_3: 3466763142004652335
+      New Project-5_4: 3753644941584562083
+      New Project-5_5: 180567755397740542
+      New Project-5_6: 6070564069358951241
+      New Project-5_7: -2688031564241850694
+      New Project-5_8: -8110976314550527824
+      New Project-5_9: -4134012605398449256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

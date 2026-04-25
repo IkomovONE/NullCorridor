@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 0beaa8e737c5847febf7786a45d32ad4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 703348960239171580
+    second: New Project-10_0
+  - first:
+      213: 3898829398604456163
+    second: New Project-10_1
+  - first:
+      213: -473288933250097250
+    second: New Project-10_2
+  - first:
+      213: -4474292363944262749
+    second: New Project-10_3
+  - first:
+      213: 9140693450428539725
+    second: New Project-10_4
+  - first:
+      213: 8797464547479285014
+    second: New Project-10_5
+  - first:
+      213: 6347336871228132629
+    second: New Project-10_6
+  - first:
+      213: 2138121002858828292
+    second: New Project-10_7
+  - first:
+      213: -5115352705519966226
+    second: New Project-10_8
+  - first:
+      213: -4682163474049227979
+    second: New Project-10_9
+  - first:
+      213: 6305902124970645525
+    second: New Project-10_10
+  - first:
+      213: -4059735271933272716
+    second: New Project-10_11
+  - first:
+      213: 8788151048251311547
+    second: New Project-10_12
+  - first:
+      213: -438785010832698355
+    second: New Project-10_13
+  - first:
+      213: -7575285041726111146
+    second: New Project-10_14
+  - first:
+      213: 1007705312432891684
+    second: New Project-10_15
+  - first:
+      213: 4957743954481286896
+    second: New Project-10_16
+  - first:
+      213: 3495719460032240346
+    second: New Project-10_17
+  - first:
+      213: 4257854446034992343
+    second: New Project-10_18
+  - first:
+      213: 8133089139444216385
+    second: New Project-10_19
+  - first:
+      213: 5372591410784006633
+    second: New Project-10_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: New Project-10_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2369
+        width: 297
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf73230272cc2c900800000000000000
+      internalID: 703348960239171580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2375
+        width: 249
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e02baf5eac6b1630800000000000000
+      internalID: 3898829398604456163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_2
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2350
+        width: 176
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f1189093a8e69f0800000000000000
+      internalID: -473288933250097250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_3
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 2357
+        width: 258
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a30cd10dce18e1c0800000000000000
+      internalID: -4474292363944262749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_4
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 2373
+        width: 133
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43688183444ade70800000000000000
+      internalID: 9140693450428539725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_5
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 2387
+        width: 276
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d689c156fd61a70800000000000000
+      internalID: 8797464547479285014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_6
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 2378
+        width: 195
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dca473145461850800000000000000
+      internalID: 6347336871228132629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1750
+        width: 230
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402d33e49b12cad10800000000000000
+      internalID: 2138121002858828292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_8
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1747
+        width: 278
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee726ae01dd9209b0800000000000000
+      internalID: -5115352705519966226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_9
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1771
+        width: 232
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533acf4a02d950fb0800000000000000
+      internalID: -4682163474049227979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1784
+        width: 232
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51891439290138750800000000000000
+      internalID: 6305902124970645525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_11
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1781
+        width: 188
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d1b42974ce8a7c0800000000000000
+      internalID: -4059735271933272716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_12
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1796
+        width: 253
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb50f7711d8c5f970800000000000000
+      internalID: 8788151048251311547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_13
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1785
+        width: 269
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d041d808b5f19e9f0800000000000000
+      internalID: -438785010832698355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1246
+        width: 213
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652c59fd36e2fd690800000000000000
+      internalID: -7575285041726111146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1218
+        width: 291
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42726d184a61cfd00800000000000000
+      internalID: 1007705312432891684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_16
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1240
+        width: 239
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe823efbd17dc440800000000000000
+      internalID: 4957743954481286896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_17
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1266
+        width: 201
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada54a9e35a438030800000000000000
+      internalID: 3495719460032240346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_18
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1288
+        width: 196
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcbb314f00f61b30800000000000000
+      internalID: 4257854446034992343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_19
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 1267
+        width: 362
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142f82b3b798ed070800000000000000
+      internalID: 8133089139444216385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Project-10_20
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 1298
+        width: 208
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e178134c674f8a40800000000000000
+      internalID: 5372591410784006633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      New Project-10_0: 703348960239171580
+      New Project-10_1: 3898829398604456163
+      New Project-10_10: 6305902124970645525
+      New Project-10_11: -4059735271933272716
+      New Project-10_12: 8788151048251311547
+      New Project-10_13: -438785010832698355
+      New Project-10_14: -7575285041726111146
+      New Project-10_15: 1007705312432891684
+      New Project-10_16: 4957743954481286896
+      New Project-10_17: 3495719460032240346
+      New Project-10_18: 4257854446034992343
+      New Project-10_19: 8133089139444216385
+      New Project-10_2: -473288933250097250
+      New Project-10_20: 5372591410784006633
+      New Project-10_3: -4474292363944262749
+      New Project-10_4: 9140693450428539725
+      New Project-10_5: 8797464547479285014
+      New Project-10_6: 6347336871228132629
+      New Project-10_7: 2138121002858828292
+      New Project-10_8: -5115352705519966226
+      New Project-10_9: -4682163474049227979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

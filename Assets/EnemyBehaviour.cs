@@ -12,6 +12,8 @@ public class EnemyMove : MonoBehaviour
     private Animator animator;
     private SpriteRenderer sr;
 
+    private Color originalColor;
+
     [Header("Movement")]
     public float patrolSpeed = 1.5f;
     public float chaseSpeed = 2.5f;
@@ -51,7 +53,7 @@ public class EnemyMove : MonoBehaviour
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
-
+        originalColor = sr.color;
         patrolCenter = transform.position;
 
         if (player == null)
@@ -244,6 +246,7 @@ public class EnemyMove : MonoBehaviour
         if (dead) return;
 
         health -= amount;
+        StartCoroutine(DamageFlash());
         
         if (health != 0) StartCoroutine(PlayHalfSound(damageSound, 1f));
         Debug.Log("Enemy HP: " + health);
@@ -283,5 +286,14 @@ public class EnemyMove : MonoBehaviour
         yield return new WaitForSeconds(duration);
 
         audioSource.Stop();
+    }
+
+    IEnumerator DamageFlash()
+    {
+        sr.color = new Color(1f, 1f, 1f, 0.63f);
+
+        yield return new WaitForSeconds(0.2f);
+
+        sr.color = originalColor;
     }
 }
