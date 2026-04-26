@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 96e67b275259e4088b8cff54430d1373
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3567077353323209165
+    second: bigSplash-removebg-preview_0
+  - first:
+      213: -2336321907518451408
+    second: bigSplash-removebg-preview_1
+  - first:
+      213: 4122410823670817020
+    second: bigSplash-removebg-preview_2
+  - first:
+      213: -4329432449576233817
+    second: bigSplash-removebg-preview_3
+  - first:
+      213: 7593083708653376041
+    second: bigSplash-removebg-preview_4
+  - first:
+      213: -235142383943397682
+    second: bigSplash-removebg-preview_5
+  - first:
+      213: -5152408738698292214
+    second: bigSplash-removebg-preview_6
+  - first:
+      213: 1893526781453166327
+    second: bigSplash-removebg-preview_7
+  - first:
+      213: -2237045807090627174
+    second: bigSplash-removebg-preview_8
+  - first:
+      213: -4205190058979489869
+    second: bigSplash-removebg-preview_9
+  - first:
+      213: -6317210499575474954
+    second: bigSplash-removebg-preview_10
+  - first:
+      213: 6545925106617924060
+    second: bigSplash-removebg-preview_11
+  - first:
+      213: 9103513414586874051
+    second: bigSplash-removebg-preview_12
+  - first:
+      213: -226704605547334732
+    second: bigSplash-removebg-preview_13
+  - first:
+      213: -670197958684014538
+    second: bigSplash-removebg-preview_14
+  - first:
+      213: 3128805536339905331
+    second: bigSplash-removebg-preview_15
+  - first:
+      213: 9125467863927338267
+    second: bigSplash-removebg-preview_16
+  - first:
+      213: 8327988723255553977
+    second: bigSplash-removebg-preview_17
+  - first:
+      213: -480870625864526653
+    second: bigSplash-removebg-preview_18
+  - first:
+      213: 129550093074562658
+    second: bigSplash-removebg-preview_19
+  - first:
+      213: 7654067311566292438
+    second: bigSplash-removebg-preview_20
+  - first:
+      213: -3766149277426834820
+    second: bigSplash-removebg-preview_21
+  - first:
+      213: -5278985052800008867
+    second: bigSplash-removebg-preview_22
+  - first:
+      213: 8804075286639786121
+    second: bigSplash-removebg-preview_23
+  - first:
+      213: 6506928053199821196
+    second: bigSplash-removebg-preview_24
+  - first:
+      213: 8133570802897491965
+    second: bigSplash-removebg-preview_25
+  - first:
+      213: 1838239176732325138
+    second: bigSplash-removebg-preview_26
+  - first:
+      213: 8349715499278470594
+    second: bigSplash-removebg-preview_27
+  - first:
+      213: -1328134989748246009
+    second: bigSplash-removebg-preview_28
+  - first:
+      213: -328132546578596589
+    second: bigSplash-removebg-preview_29
+  - first:
+      213: 8251612476395823475
+    second: bigSplash-removebg-preview_30
+  - first:
+      213: -58300960093730223
+    second: bigSplash-removebg-preview_31
+  - first:
+      213: 7005545753017419054
+    second: bigSplash-removebg-preview_32
+  - first:
+      213: -4239509075434418733
+    second: bigSplash-removebg-preview_33
+  - first:
+      213: 2986350705465707302
+    second: bigSplash-removebg-preview_34
+  - first:
+      213: 596657300171534540
+    second: bigSplash-removebg-preview_35
+  - first:
+      213: 1617977778000984246
+    second: bigSplash-removebg-preview_36
+  - first:
+      213: 7100099958922350703
+    second: bigSplash-removebg-preview_37
+  - first:
+      213: 2630318676323313934
+    second: bigSplash-removebg-preview_38
+  - first:
+      213: 3405868884200823081
+    second: bigSplash-removebg-preview_39
+  - first:
+      213: -3948982735784097679
+    second: bigSplash-removebg-preview_40
+  - first:
+      213: -1643168325315202736
+    second: bigSplash-removebg-preview_41
+  - first:
+      213: -9218142951198562958
+    second: bigSplash-removebg-preview_42
+  - first:
+      213: 82899381860652140
+    second: bigSplash-removebg-preview_43
+  - first:
+      213: -3580769930508264722
+    second: bigSplash-removebg-preview_44
+  - first:
+      213: 5933324078420651420
+    second: bigSplash-removebg-preview_45
+  - first:
+      213: 4121107616060815792
+    second: bigSplash-removebg-preview_46
+  - first:
+      213: 7944583023219068053
+    second: bigSplash-removebg-preview_47
+  - first:
+      213: 1757257195884963827
+    second: bigSplash-removebg-preview_48
+  - first:
+      213: 403766859982358896
+    second: bigSplash-removebg-preview_49
+  - first:
+      213: 5879038560064611653
+    second: bigSplash-removebg-preview_50
+  - first:
+      213: 3205123531751909604
+    second: bigSplash-removebg-preview_51
+  - first:
+      213: -8563880235423028531
+    second: bigSplash-removebg-preview_52
+  - first:
+      213: -2266011582521315017
+    second: bigSplash-removebg-preview_53
+  - first:
+      213: -2788118289278814036
+    second: bigSplash-removebg-preview_54
+  - first:
+      213: 6752401157242715626
+    second: bigSplash-removebg-preview_55
+  - first:
+      213: 3805769032085856071
+    second: bigSplash-removebg-preview_56
+  - first:
+      213: -3710891704649474486
+    second: bigSplash-removebg-preview_57
+  - first:
+      213: 2914626613152411633
+    second: bigSplash-removebg-preview_58
+  - first:
+      213: -4354330942976486246
+    second: bigSplash-removebg-preview_59
+  - first:
+      213: -3563163264345362257
+    second: bigSplash-removebg-preview_60
+  - first:
+      213: -6858830559519632148
+    second: bigSplash-removebg-preview_61
+  - first:
+      213: 3725772185773651775
+    second: bigSplash-removebg-preview_62
+  - first:
+      213: -4905619679935440634
+    second: bigSplash-removebg-preview_63
+  - first:
+      213: -2197432117223382594
+    second: bigSplash-removebg-preview_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 612
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1ab2324fdc08130800000000000000
+      internalID: 3567077353323209165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 385
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031566d7a97b39fd0800000000000000
+      internalID: -2336321907518451408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 382
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ef1b7dceb53930800000000000000
+      internalID: 4122410823670817020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 374
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a495fb1024cae3c0800000000000000
+      internalID: -4329432449576233817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 367
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9221714376d006960800000000000000
+      internalID: 7593083708653376041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 369
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece4a656f3b9cbcf0800000000000000
+      internalID: -235142383943397682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 347
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0415400d87fe78b0800000000000000
+      internalID: -5152408738698292214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 370
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6643d4398274a10800000000000000
+      internalID: 1893526781453166327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 363
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d061ad0ba64f0e0800000000000000
+      internalID: -2237045807090627174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 371
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b70681ebe924a5c0800000000000000
+      internalID: -4205190058979489869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 370
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f49f694582c458a0800000000000000
+      internalID: -6317210499575474954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 359
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9b542e33cc7da50800000000000000
+      internalID: 6545925106617924060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 367
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c83474d73d265e70800000000000000
+      internalID: 9103513414586874051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 544
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3f765cc559adcf0800000000000000
+      internalID: -226704605547334732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 364
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6388277e18af2b6f0800000000000000
+      internalID: -670197958684014538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 359
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bc0d4ee00cb6b20800000000000000
+      internalID: 3128805536339905331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 363
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15b1a66cac24ae70800000000000000
+      internalID: 9125467863927338267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 356
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf2b17ce95f29370800000000000000
+      internalID: 8327988723255553977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 346
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4dc6aa6ba9359f0800000000000000
+      internalID: -480870625864526653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 351
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ef35e8f114cc100800000000000000
+      internalID: 129550093074562658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 351
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d586d8baa5b83a60800000000000000
+      internalID: 7654067311566292438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 317
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7221e3af23fbbbc0800000000000000
+      internalID: -3766149277426834820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 292
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d324150174db6b0800000000000000
+      internalID: -5278985052800008867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 305
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988b5f3c3db5e2a70800000000000000
+      internalID: 8804075286639786121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 287
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89dff5d6904d4a50800000000000000
+      internalID: 6506928053199821196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 276
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7913e3d8f30e070800000000000000
+      internalID: 8133570802897491965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2153655baccb28910800000000000000
+      internalID: 1838239176732325138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 264
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd0116020620e370800000000000000
+      internalID: 8349715499278470594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 246
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ae94a7344819de0800000000000000
+      internalID: -1328134989748246009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 204
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d30f9ff2d327bf0800000000000000
+      internalID: -328132546578596589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 223
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37121cf04dd938270800000000000000
+      internalID: 8251612476395823475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 132
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a8c8fe59fd03ff0800000000000000
+      internalID: -58300960093730223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 220
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e258952deb2b83160800000000000000
+      internalID: 7005545753017419054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 223
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddcfa035fc3a25c0800000000000000
+      internalID: -4239509075434418733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 217
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b450ee426a17920800000000000000
+      internalID: 2986350705465707302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 196
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc03e5d37a0c74800800000000000000
+      internalID: 596657300171534540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 194
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b879387736347610800000000000000
+      internalID: 1617977778000984246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 170
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6015517b4f988260800000000000000
+      internalID: 7100099958922350703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 186
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09a35c66e4c08420800000000000000
+      internalID: 2630318676323313934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 111
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929985284b3144f20800000000000000
+      internalID: 3405868884200823081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 177
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1784079df156239c0800000000000000
+      internalID: -3948982735784097679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 132
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051f96f2d1b4239e0800000000000000
+      internalID: -1643168325315202736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 151
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275e90163d3921080800000000000000
+      internalID: -9218142951198562958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 111
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6457ef6c84862100800000000000000
+      internalID: 82899381860652140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 130
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea97ad48bc8e4ec0800000000000000
+      internalID: -3580769930508264722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 111
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9de88f20d6675250800000000000000
+      internalID: 5933324078420651420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 114
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b93670da8d113930800000000000000
+      internalID: 4121107616060815792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 92
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c429bda24d04e60800000000000000
+      internalID: 7944583023219068053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 36
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7e8bbfb18036810800000000000000
+      internalID: 1757257195884963827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 104
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079c255e1d77a9500800000000000000
+      internalID: 403766859982358896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 100
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545a9710c6a869150800000000000000
+      internalID: 5879038560064611653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 65
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e86153eed2ea7c20800000000000000
+      internalID: 3205123531751909604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 48
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca2f9c9c4cf62980800000000000000
+      internalID: -8563880235423028531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73175e6b8728d80e0800000000000000
+      internalID: -2266011582521315017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca834cf103d9e49d0800000000000000
+      internalID: -2788118289278814036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 69
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed7366a31955bd50800000000000000
+      internalID: 6752401157242715626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 69
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fd8a655cec0d430800000000000000
+      internalID: 3805769032085856071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 54
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e9c60e7a3408cc0800000000000000
+      internalID: -3710891704649474486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff69d95675d27820800000000000000
+      internalID: 2914626613152411633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 34
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94156dd31f4293c0800000000000000
+      internalID: -4354330942976486246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 12
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa039f7b3e91d8ec0800000000000000
+      internalID: -3563163264345362257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 15
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce41d3d12f980d0a0800000000000000
+      internalID: -6858830559519632148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 22
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37b11f101a94b330800000000000000
+      internalID: 3725772185773651775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 34
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609584664ecbbebb0800000000000000
+      internalID: -4905619679935440634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSplash-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 22
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1add2c1272181e0800000000000000
+      internalID: -2197432117223382594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bigSplash-removebg-preview_0: 3567077353323209165
+      bigSplash-removebg-preview_1: -2336321907518451408
+      bigSplash-removebg-preview_10: -6317210499575474954
+      bigSplash-removebg-preview_11: 6545925106617924060
+      bigSplash-removebg-preview_12: 9103513414586874051
+      bigSplash-removebg-preview_13: -226704605547334732
+      bigSplash-removebg-preview_14: -670197958684014538
+      bigSplash-removebg-preview_15: 3128805536339905331
+      bigSplash-removebg-preview_16: 9125467863927338267
+      bigSplash-removebg-preview_17: 8327988723255553977
+      bigSplash-removebg-preview_18: -480870625864526653
+      bigSplash-removebg-preview_19: 129550093074562658
+      bigSplash-removebg-preview_2: 4122410823670817020
+      bigSplash-removebg-preview_20: 7654067311566292438
+      bigSplash-removebg-preview_21: -3766149277426834820
+      bigSplash-removebg-preview_22: -5278985052800008867
+      bigSplash-removebg-preview_23: 8804075286639786121
+      bigSplash-removebg-preview_24: 6506928053199821196
+      bigSplash-removebg-preview_25: 8133570802897491965
+      bigSplash-removebg-preview_26: 1838239176732325138
+      bigSplash-removebg-preview_27: 8349715499278470594
+      bigSplash-removebg-preview_28: -1328134989748246009
+      bigSplash-removebg-preview_29: -328132546578596589
+      bigSplash-removebg-preview_3: -4329432449576233817
+      bigSplash-removebg-preview_30: 8251612476395823475
+      bigSplash-removebg-preview_31: -58300960093730223
+      bigSplash-removebg-preview_32: 7005545753017419054
+      bigSplash-removebg-preview_33: -4239509075434418733
+      bigSplash-removebg-preview_34: 2986350705465707302
+      bigSplash-removebg-preview_35: 596657300171534540
+      bigSplash-removebg-preview_36: 1617977778000984246
+      bigSplash-removebg-preview_37: 7100099958922350703
+      bigSplash-removebg-preview_38: 2630318676323313934
+      bigSplash-removebg-preview_39: 3405868884200823081
+      bigSplash-removebg-preview_4: 7593083708653376041
+      bigSplash-removebg-preview_40: -3948982735784097679
+      bigSplash-removebg-preview_41: -1643168325315202736
+      bigSplash-removebg-preview_42: -9218142951198562958
+      bigSplash-removebg-preview_43: 82899381860652140
+      bigSplash-removebg-preview_44: -3580769930508264722
+      bigSplash-removebg-preview_45: 5933324078420651420
+      bigSplash-removebg-preview_46: 4121107616060815792
+      bigSplash-removebg-preview_47: 7944583023219068053
+      bigSplash-removebg-preview_48: 1757257195884963827
+      bigSplash-removebg-preview_49: 403766859982358896
+      bigSplash-removebg-preview_5: -235142383943397682
+      bigSplash-removebg-preview_50: 5879038560064611653
+      bigSplash-removebg-preview_51: 3205123531751909604
+      bigSplash-removebg-preview_52: -8563880235423028531
+      bigSplash-removebg-preview_53: -2266011582521315017
+      bigSplash-removebg-preview_54: -2788118289278814036
+      bigSplash-removebg-preview_55: 6752401157242715626
+      bigSplash-removebg-preview_56: 3805769032085856071
+      bigSplash-removebg-preview_57: -3710891704649474486
+      bigSplash-removebg-preview_58: 2914626613152411633
+      bigSplash-removebg-preview_59: -4354330942976486246
+      bigSplash-removebg-preview_6: -5152408738698292214
+      bigSplash-removebg-preview_60: -3563163264345362257
+      bigSplash-removebg-preview_61: -6858830559519632148
+      bigSplash-removebg-preview_62: 3725772185773651775
+      bigSplash-removebg-preview_63: -4905619679935440634
+      bigSplash-removebg-preview_64: -2197432117223382594
+      bigSplash-removebg-preview_7: 1893526781453166327
+      bigSplash-removebg-preview_8: -2237045807090627174
+      bigSplash-removebg-preview_9: -4205190058979489869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
