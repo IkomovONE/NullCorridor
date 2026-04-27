@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Floor0
+  - Tutorial
+  - Floor1
+  - Level1- Tutorial Lobby
+  - Level2- Lobby
+  - Level3- Pools
   layers:
   - Default
   - TransparentFX
