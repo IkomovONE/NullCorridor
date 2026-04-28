@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -11,8 +12,26 @@ public class UIManager : MonoBehaviour
 
     public TMP_Text ammoText;
 
+    public int diaryPages = 0;
+
+    public TMP_Text popupText;
+    public GameObject popupPanel;
+
+    public GameObject pauseMenuPanel;
+
+    public GameObject diaryOverlay;
+    public TMP_Text diaryText;
+
+    private bool diaryOpen = false;
+
+    private Vector3 pausedCameraPos;
+    private Quaternion pausedCameraRot;
+
+    private bool paused = false;
+
     public Image brightnessOverlay;
     public Slider brightnessSlider;
+    public Slider volumeSlider;
 
     Coroutine hpGlow;
     Coroutine stmGlow;
@@ -29,6 +48,12 @@ public class UIManager : MonoBehaviour
 
         if (brightnessSlider != null)
             brightnessSlider.value = savedBrightness;
+
+        if (diaryOverlay != null)
+            diaryOverlay.SetActive(false);
+
+        if (popupPanel != null)
+            popupPanel.SetActive(false);
     }
 
     void Update()
@@ -39,6 +64,22 @@ public class UIManager : MonoBehaviour
                 targetHealth,
                 Time.deltaTime * smoothSpeed
             );
+
+        if (Input.GetKeyDown(KeyCode.Escape) && !diaryOpen)
+        {
+            TogglePause();
+        }
+
+        if (diaryOpen && Input.GetKeyDown(KeyCode.Space))
+        {
+            CloseDiary();
+        }
+
+        if ((paused || diaryOpen) && Camera.main != null)
+        {
+            Camera.main.transform.position = pausedCameraPos;
+            Camera.main.transform.rotation = pausedCameraRot;
+        }
     }
 
     public void UpdateHealth(float current, float max)
@@ -93,20 +134,6 @@ public class UIManager : MonoBehaviour
         );
     }
 
-    public void SetBrightness(float value)
-    {
-        if (brightnessOverlay == null) return;
-
-        Color c = brightnessOverlay.color;
-
-        c.a = Mathf.Lerp(0.45f, 0f, value);
-
-        brightnessOverlay.color = c;
-
-        PlayerPrefs.SetFloat("Brightness", value);
-        PlayerPrefs.Save();
-    }
-
     IEnumerator GlowBar(Image bar, Color glowColor)
     {
         Color original = bar.color;
@@ -116,5 +143,123 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSeconds(0.18f);
 
         bar.color = original;
+    }
+
+    public void TogglePause()
+    {
+        paused = !paused;
+
+        pauseMenuPanel.SetActive(paused);
+
+        if (paused)
+        {
+            pausedCameraPos = Camera.main.transform.position;
+            pausedCameraRot = Camera.main.transform.rotation;
+
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+    }
+
+    public void ResumeGame()
+    {
+        paused = false;
+
+        pauseMenuPanel.SetActive(false);
+
+        Time.timeScale = 1f;
+    }
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void ReturnToMenu()
+    {
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void SetVolume(float value)
+    {
+        AudioListener.volume = value;
+
+        PlayerPrefs.SetFloat("Volume", value);
+    }
+
+    public void SetBrightness(float value)
+    {
+        Color c = brightnessOverlay.color;
+
+        c.a = Mathf.Lerp(0.45f, 0f, value);
+
+        brightnessOverlay.color = c;
+
+        PlayerPrefs.SetFloat("Brightness", value);
+    }
+
+    public void CollectDiary(string message)
+    {
+        diaryPages++;
+
+        PlayerPrefs.SetInt("DiaryPages", diaryPages);
+
+        StartCoroutine(ShowPopup("+1 DIARY PAGE FOUND"));
+
+        ShowDiary(message);
+    }
+
+    IEnumerator ShowPopup(string msg)
+    {
+        popupPanel.SetActive(true);
+
+        popupText.text = msg;
+
+        yield return new WaitForSecondsRealtime(2f);
+
+        popupPanel.SetActive(false);
+    }
+
+    public void ShowDiary(string message)
+
+    {
+
+        if (diaryOverlay == null) return;
+
+        diaryOpen = true;
+
+        pausedCameraPos = Camera.main.transform.position;
+
+        pausedCameraRot = Camera.main.transform.rotation;
+
+        paused = false;
+
+        pauseMenuPanel.SetActive(false);
+
+        diaryOverlay.SetActive(true);
+
+        if (diaryText != null)
+
+            diaryText.text = message;
+
+        Time.timeScale = 0f;
+
+    }
+
+    public void CloseDiary()
+    {
+        diaryOpen = false;
+
+        if (diaryOverlay != null)
+            diaryOverlay.SetActive(false);
+
+        Time.timeScale = 1f;
     }
 }

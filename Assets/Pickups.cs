@@ -7,7 +7,8 @@ public class PickupItem : MonoBehaviour
         Health,
         Stamina,
         Sanity,
-        Ammo
+        Ammo,
+        Diary
     }
 
     public AudioClip medkitSound;
@@ -15,6 +16,8 @@ public class PickupItem : MonoBehaviour
     public AudioClip pillSound;
 
     public AudioClip ammoSound;
+
+    public AudioClip DiarySound;
 
     public PickupType pickupType;
     public float amount = 25f;
@@ -71,6 +74,12 @@ public class PickupItem : MonoBehaviour
                 gun.AddAmmo(2);
                 
                 break;
+
+            case PickupType.Diary:
+
+                FindObjectOfType<UIManager>().CollectDiary("Day 3. The walls hum at night.");
+                
+                break;
         }
 
         AudioClip soundToPlay = null;
@@ -91,6 +100,10 @@ public class PickupItem : MonoBehaviour
 
             case PickupType.Ammo:
                 soundToPlay = ammoSound;
+                break;
+
+            case PickupType.Diary:
+                soundToPlay = DiarySound;
                 break;
         }
 

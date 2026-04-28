@@ -45,16 +45,16 @@ public class PlayerGun : MonoBehaviour
 
     {
 
+        if (Time.timeScale == 0f) return;
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.Space))
-
+        if (Input.GetMouseButtonDown(0))
         {
-
             Shoot();
-
         }
+       
 
     }
 
