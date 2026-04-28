@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class Menu : MonoBehaviour
 {
@@ -14,11 +15,33 @@ public class Menu : MonoBehaviour
     public GameObject levelsPanel;
     public GameObject settingsPanel;
 
+    public Button tutorialButton;
+    public Button lobbyButton;
+    public Button poolsButton;
+
+    public TMP_Text tutorialProgressText;
+    public TMP_Text lobbyProgressText;
+    public TMP_Text poolsProgressText;
+
     public GameObject QuitPanel;
 
     void Start()
 
     {
+
+        int unlocked = SaveSystem.GetUnlockedLevel();
+
+        SetButtonState(tutorialButton, true);
+
+        SetButtonState(lobbyButton, unlocked >= 2);
+
+        SetButtonState(poolsButton, unlocked >= 3);
+
+        LoadLevelText("Tutorial", tutorialProgressText);
+
+        LoadLevelText("Lobby", lobbyProgressText);
+
+        LoadLevelText("Pools", poolsProgressText);
 
         float savedVolume = PlayerPrefs.GetFloat("Volume", 1f);
 
@@ -58,14 +81,40 @@ public class Menu : MonoBehaviour
 
     }
 
+    void SetButtonState(Button btn, bool unlocked)
+
+    {
+
+        btn.interactable = unlocked;
+
+        Image img = btn.GetComponent<Image>();
+
+        Color c = img.color;
+
+        c.a = unlocked ? 1f : 0.35f;
+
+        img.color = c;
+
+    }
+
     public void PlayNewGame()
     {
+        SaveSystem.ResetSave();
+
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Level1- Tutorial Lobby");
     }
 
     public void Continue()
+
     {
-        SceneManager.LoadScene("Level1");
+
+        SceneManager.LoadScene(
+
+            SaveSystem.GetLastScene()
+
+        );
+
     }
 
     public void LoadLevel(string sceneName)
@@ -106,5 +155,29 @@ public class Menu : MonoBehaviour
         settingsPanel.SetActive(false);
         QuitPanel.SetActive(true);
         Application.Quit();
+    }
+
+    void LoadLevelText(string levelID, TMP_Text txt)
+
+    {
+
+        int percent = SaveSystem.GetStat(levelID + "_Percent");
+
+        int found = SaveSystem.GetStat(levelID + "_Found");
+
+        int total = SaveSystem.GetStat(levelID + "_Total");
+
+        if (total > 0)
+
+        {
+            txt.text = percent + "% completed (" + found + "/" + total + " diaries)";
+        }
+
+        else
+
+        {
+            txt.text = "Not completed";
+        }
+
     }
 }

@@ -1,11 +1,21 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class ExitDoor : MonoBehaviour
 {
     public Animator animator;
     public Transform player;
     public GameObject levelCompleteUI;
+
+    public string levelID;
+
+    public string nextSceneName;
+
+    public int unlockLevelNumber = 1;
+
+    public TMP_Text progressText;
 
     public BoxCollider2D blockingCollider;
     public AudioClip DoorSound;
@@ -97,7 +107,37 @@ public class ExitDoor : MonoBehaviour
 
         yield return new WaitForSeconds(0.3f);
 
+        
+
+        UIManager ui = FindFirstObjectByType<UIManager>();
+
+        int percent = 50;
+        int found = 0;
+        int total = 0;
+
+        if (ui != null)
+
+            percent = ui.GetCompletionPercent();
+            found = ui.levelPagesFound;
+            total = ui.totalLevelPages;
+
+        progressText.text = "Score: " + percent + "% (" + found + " of " + total + " diaries found)";
+
+        Time.timeScale = 0f;
         levelCompleteUI.SetActive(true);
+
+        SaveSystem.SaveLevelStats(levelID, percent, found, total);
+        SaveSystem.SaveProgress(nextSceneName, unlockLevelNumber);
+
+        yield return new WaitForSecondsRealtime(3f);
+
+
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(nextSceneName);
+
+        
+        
+
     }
 
     void OnTriggerEnter2D(Collider2D other)

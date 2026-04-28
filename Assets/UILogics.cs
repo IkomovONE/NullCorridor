@@ -14,6 +14,9 @@ public class UIManager : MonoBehaviour
 
     public int diaryPages = 0;
 
+    public int levelPagesFound = 0;
+    public int totalLevelPages = 0;
+
     public TMP_Text popupText;
     public GameObject popupPanel;
 
@@ -32,6 +35,7 @@ public class UIManager : MonoBehaviour
     public Image brightnessOverlay;
     public Slider brightnessSlider;
     public Slider volumeSlider;
+    public TMP_Text pauseProgressText;
 
     Coroutine hpGlow;
     Coroutine stmGlow;
@@ -54,7 +58,12 @@ public class UIManager : MonoBehaviour
 
         if (popupPanel != null)
             popupPanel.SetActive(false);
+
+        DiaryPickup[] diaries = FindObjectsByType<DiaryPickup>(FindObjectsSortMode.None);
+        totalLevelPages = diaries.Length;
+        levelPagesFound = 0;
     }
+
 
     void Update()
     {
@@ -155,8 +164,15 @@ public class UIManager : MonoBehaviour
         {
             pausedCameraPos = Camera.main.transform.position;
             pausedCameraRot = Camera.main.transform.rotation;
-
             Time.timeScale = 0f;
+
+            if (pauseProgressText != null)
+
+            {
+
+                pauseProgressText.text = GetCompletionPercent() + "% completed (" + levelPagesFound + "/" + totalLevelPages + " diaries)";
+
+            }
         }
         else
         {
@@ -205,15 +221,48 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetFloat("Brightness", value);
     }
 
-    public void CollectDiary(string message)
-    {
-        diaryPages++;
+    public void CollectDiary(string diaryID)
 
+    {
+
+        diaryPages++;
+        levelPagesFound++;
         PlayerPrefs.SetInt("DiaryPages", diaryPages);
+
+        string message = GetDiaryText(diaryID);
 
         StartCoroutine(ShowPopup("+1 DIARY PAGE FOUND"));
 
         ShowDiary(message);
+
+    }
+
+    string GetDiaryText(string id)
+
+    {
+
+        switch (id)
+
+        {
+
+            case "Diary1":
+
+                return "Day 1. The lights buzz even when turned off.";
+
+            case "Diary2":
+
+                return "I heard footsteps ahead. They matched mine.";
+
+            case "Diary3":
+
+                return "The smiling one waits near the exit.";
+
+            default:
+
+                return "The page is damaged and unreadable.";
+
+        }
+
     }
 
     IEnumerator ShowPopup(string msg)
@@ -261,5 +310,14 @@ public class UIManager : MonoBehaviour
             diaryOverlay.SetActive(false);
 
         Time.timeScale = 1f;
+    }
+
+    public int GetCompletionPercent()
+    {
+        if (totalLevelPages == 0) return 100;
+
+        return Mathf.RoundToInt(
+            (float)levelPagesFound / totalLevelPages * 100f
+        );
     }
 }

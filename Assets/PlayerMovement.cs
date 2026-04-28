@@ -15,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
 
+    private bool staminaLocked = false;
+    private float staminaLockTimer = 0f;
+
     [Header("Movement")]
     public float walkSpeed = 3f;
     public float runSpeed = 5.5f;
@@ -51,6 +54,13 @@ public class PlayerMovement : MonoBehaviour
         animationLocked = false;
     }
 
+    public void LockStamina(float seconds)
+    {
+        staminaLocked = true;
+        staminaLockTimer = seconds;
+        stamina = maxStamina;
+    }
+
     void Update()
     {
         if (Time.timeScale == 0f) return;
@@ -72,15 +82,29 @@ public class PlayerMovement : MonoBehaviour
             move != Vector2.zero &&
             stamina > 0f;
 
-        if (sprinting)
+        if (staminaLocked)
         {
-            currentSpeed = runSpeed;
-            stamina -= staminaDrain * Time.deltaTime;
+            currentSpeed = sprinting ? runSpeed : walkSpeed;
+
+            stamina = maxStamina;
+
+            staminaLockTimer -= Time.deltaTime;
+
+            if (staminaLockTimer <= 0f)
+                staminaLocked = false;
         }
         else
         {
-            currentSpeed = walkSpeed;
-            stamina += staminaRegen * Time.deltaTime;
+            if (sprinting)
+            {
+                currentSpeed = runSpeed;
+                stamina -= staminaDrain * Time.deltaTime;
+            }
+            else
+            {
+                currentSpeed = walkSpeed;
+                stamina += staminaRegen * Time.deltaTime;
+            }
         }
 
         stamina = Mathf.Clamp(stamina, 0f, maxStamina);

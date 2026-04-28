@@ -59,6 +59,8 @@ public class PickupItem : MonoBehaviour
                 FindFirstObjectByType<UIManager>()
                     .UpdateStamina(movement.stamina, movement.maxStamina);
 
+                if (movement != null) movement.LockStamina(30f);
+
                 ui.GlowStamina();
                 break;
 
@@ -77,7 +79,21 @@ public class PickupItem : MonoBehaviour
 
             case PickupType.Diary:
 
-                FindObjectOfType<UIManager>().CollectDiary("Day 3. The walls hum at night.");
+                DiaryPickup dp = GetComponent<DiaryPickup>();
+
+                if (dp != null)
+
+                {
+
+                    UIManager ui =
+
+                        FindFirstObjectByType<UIManager>();
+
+                    if (ui != null)
+
+                        ui.CollectDiary(dp.diaryID);
+
+                }
                 
                 break;
         }
