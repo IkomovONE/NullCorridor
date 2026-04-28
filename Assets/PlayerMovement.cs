@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Transform gunPivot;
     public SpriteRenderer gunSR;
+
     float idleTimer;
     bool animationLocked = false;
 
@@ -52,10 +53,18 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f) return;
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
         Vector2 move = movement;
+
+        Vector3 mousePos =
+            Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        Vector2 aim =
+            mousePos - transform.position;
 
         // STAMINA + SPRINT
         bool sprinting =
@@ -79,79 +88,110 @@ public class PlayerMovement : MonoBehaviour
         if (ui != null)
             ui.UpdateStamina(stamina, maxStamina);
 
-        // SPRITE + FLASHLIGHT
-        if (movement.x < 0)
+        // =========================
+        // AIM SNAP DIRECTIONS
+        // =========================
+
+        // LEFT UP
+        if (aim.x < -0.5f && aim.y > 0.5f)
         {
             sr.flipX = true;
-            //gunPivot.localRotation = Quaternion.Euler(0,0,45);
             gunSR.flipY = true;
+
+            flashlight.localRotation = Quaternion.Euler(0, 0, -220);
+            flashlight.localPosition = new Vector3(0.40f, 1, 0);
+
+            gunPivot.localRotation = Quaternion.Euler(0, 0, -220);
+            gunPivot.localPosition = new Vector3(0.40f, 0.80f, 0);
+        }
+
+        // LEFT DOWN
+        else if (aim.x < -0.5f && aim.y < -0.5f)
+        {
+            sr.flipX = true;
+            gunSR.flipY = true;
+
+            flashlight.localRotation = Quaternion.Euler(0, 0, -150);
+            flashlight.localPosition = new Vector3(0, 1, 0);
+
+            gunPivot.localRotation = Quaternion.Euler(0, 0, 220);
+            gunPivot.localPosition = new Vector3(-0.50f, 1, 0);
+        }
+
+        // RIGHT UP
+        else if (aim.x > 0.5f && aim.y > 0.5f)
+        {
+            sr.flipX = false;
+            gunSR.flipY = false;
+
+            flashlight.localRotation = Quaternion.Euler(0, 0, 60);
+            flashlight.localPosition = new Vector3(0.40f, 0, 0);
+
+            gunPivot.localRotation = Quaternion.Euler(0, 0, 60);
+            gunPivot.localPosition = new Vector3(0.40f, 0.20f, 0);
+        }
+
+        // RIGHT DOWN
+        else if (aim.x > 0.5f && aim.y < -0.5f)
+        {
+            sr.flipX = false;
+            gunSR.flipY = false;
+
+            flashlight.localRotation = Quaternion.Euler(0, 0, -20);
+            flashlight.localPosition = new Vector3(-0.4f, 0.20f, 0);
+
+            gunPivot.localRotation = Quaternion.Euler(0, 0, -20);
+            gunPivot.localPosition = new Vector3(0, 0.20f, 0);
+        }
+
+        // LEFT
+        else if (aim.x < -0.5f)
+        {
+            sr.flipX = true;
+            gunSR.flipY = true;
+
             gunPivot.localRotation = Quaternion.Euler(0, 1, 180);
             gunPivot.localPosition = new Vector3(0, 1, 0);
 
             flashlight.localRotation = Quaternion.Euler(0, 1, 180);
             flashlight.localPosition = new Vector3(0, 1, 0);
-
-            if (movement.y > 0)
-            {
-                flashlight.localRotation = Quaternion.Euler(0, 0, -220);
-                flashlight.localPosition = new Vector3(0.40f, 1, 0);
-
-                gunPivot.localRotation = Quaternion.Euler(0, 0, -220);
-                gunPivot.localPosition = new Vector3(0.40f, 0.80f, 0);
-            }
-            else if (movement.y < 0)
-            {
-
-                
-                flashlight.localRotation = Quaternion.Euler(0, 0, -150);
-                flashlight.localPosition = new Vector3(0, 1, 0);
-
-                gunPivot.localRotation = Quaternion.Euler(0, 0, 220);
-                gunPivot.localPosition = new Vector3(-0.50f, 1, 0);
-            }
         }
-        else if (movement.x > 0)
+
+        // RIGHT
+        else if (aim.x > 0.5f)
         {
             sr.flipX = false;
             gunSR.flipY = false;
+
             gunPivot.localRotation = Quaternion.Euler(0, 0, 0);
             gunPivot.localPosition = new Vector3(0, 0.1f, 0);
 
             flashlight.localRotation = Quaternion.Euler(0, 0, 0);
             flashlight.localPosition = new Vector3(0, 0, 0);
-
-            if (movement.y > 0)
-            {
-                flashlight.localRotation = Quaternion.Euler(0, 0, 60);
-                flashlight.localPosition = new Vector3(0.40f, 0, 0);
-
-                gunPivot.localRotation = Quaternion.Euler(0, 0, 60);
-                gunPivot.localPosition = new Vector3(0.40f, 0.20f, 0);
-            }
-            else if (movement.y < 0)
-            {
-                flashlight.localRotation = Quaternion.Euler(0, 0, -20);
-                flashlight.localPosition = new Vector3(-0.4f, 0.20f, 0);
-
-                gunPivot.localRotation = Quaternion.Euler(0, 0, -20);
-                gunPivot.localPosition = new Vector3(0, 0.20f, 0);
-            }
         }
-        else if (movement.y > 0)
+
+        // UP
+        else if (aim.y > 0.5f)
         {
             sr.flipX = false;
+            gunSR.flipY = true;
+
             flashlight.localRotation = Quaternion.Euler(0, 0, 90);
             flashlight.localPosition = new Vector3(0.40f, 1, 0);
-            gunSR.flipY = true;
+
             gunPivot.localRotation = Quaternion.Euler(0, 0, 80);
             gunPivot.localPosition = new Vector3(0.70f, 0.20f, 0);
         }
-        else if (movement.y < 0)
+
+        // DOWN
+        else if (aim.y < -0.5f)
         {
             sr.flipX = false;
+            gunSR.flipY = false;
+
             flashlight.localRotation = Quaternion.Euler(0, 0, -90);
             flashlight.localPosition = new Vector3(-0.60f, 0.70f, 0);
-            gunSR.flipY = false;
+
             gunPivot.localRotation = Quaternion.Euler(0, 0, -90);
             gunPivot.localPosition = new Vector3(-0.30f, 0.65f, 0);
         }
@@ -161,7 +201,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (move != Vector2.zero)
             {
-                animator.SetInteger("Animate", 2); // Walk/Run
+                animator.SetInteger("Animate", 2);
                 idleTimer = 0f;
             }
             else
@@ -169,15 +209,16 @@ public class PlayerMovement : MonoBehaviour
                 idleTimer += Time.deltaTime;
 
                 if (idleTimer > 5f)
-                    animator.SetInteger("Animate", 3); // Bored
+                    animator.SetInteger("Animate", 3);
                 else
-                    animator.SetInteger("Animate", 0); // Idle
+                    animator.SetInteger("Animate", 0);
             }
         }
     }
 
     void FixedUpdate()
     {
-        rb.linearVelocity = movement.normalized * currentSpeed;
+        rb.linearVelocity =
+            movement.normalized * currentSpeed;
     }
 }
