@@ -17,13 +17,14 @@ public class UIManager : MonoBehaviour
     public int levelPagesFound = 0;
     public int totalLevelPages = 0;
 
-    public TMP_Text popupText;
-    public GameObject popupPanel;
+   
 
     public GameObject pauseMenuPanel;
 
     public GameObject diaryOverlay;
     public TMP_Text diaryText;
+
+   
 
     private bool diaryOpen = false;
 
@@ -56,8 +57,7 @@ public class UIManager : MonoBehaviour
         if (diaryOverlay != null)
             diaryOverlay.SetActive(false);
 
-        if (popupPanel != null)
-            popupPanel.SetActive(false);
+        
 
         DiaryPickup[] diaries = FindObjectsByType<DiaryPickup>(FindObjectsSortMode.None);
         totalLevelPages = diaries.Length;
@@ -221,7 +221,7 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetFloat("Brightness", value);
     }
 
-    public void CollectDiary(string diaryID)
+    public void CollectDiary(int diaryID)
 
     {
 
@@ -231,50 +231,49 @@ public class UIManager : MonoBehaviour
 
         string message = GetDiaryText(diaryID);
 
-        StartCoroutine(ShowPopup("+1 DIARY PAGE FOUND"));
+        
 
         ShowDiary(message);
 
     }
 
-    string GetDiaryText(string id)
-
+    public string GetDiaryText(int id)
     {
-
         switch (id)
-
         {
+            case 1:
+                return "Day 1.\n\nI found this notebook in my pocket.\nNo doors lead outside.\nThe lights hum even when the power dies.";
 
-            case "Diary1":
+            case 2:
+                return "Day 3.\n\nThe rooms repeat themselves.\nI marked one wall, then found the mark again\nthree corridors away.";
 
-                return "Day 1. The lights buzz even when turned off.";
+            case 3:
+                return "Day 6.\n\nFood appears in vending machines at random.\nI no longer ask where it comes from.\nI only eat before it vanishes.";
 
-            case "Diary2":
+            case 4:
+                return "Day 11.\n\nSomething smiled at me from the far hall.\nToo tall. Too still.\nIt moved only when I blinked.";
 
-                return "I heard footsteps ahead. They matched mine.";
+            case 5:
+                return "Day 15.\n\nI hear water below the floor.\nThere are no pipes here.\nSometimes it sounds like breathing.";
 
-            case "Diary3":
+            case 6:
+                return "Day 18.\n\nI found stairs descending into warm fog.\nThe air tastes of chlorine and rust.\nI should have turned back.";
 
-                return "The smiling one waits near the exit.";
+            case 7:
+                return "Day 21.\n\nThe pools stretch farther than buildings should.\nWaves form even when nothing moves.";
+
+            case 8:
+                return "Day 27.\n\nI saw myself standing across the water.\nHe waved first.";
+
+            case 9:
+                return "Day 34.\n\nIf you find this, do not follow voices.\nThey learn your memories first.\nThen they use your name.";
 
             default:
-
-                return "The page is damaged and unreadable.";
-
+                return "Day ?.\n\nThe pages are unreadable.";
         }
-
     }
 
-    IEnumerator ShowPopup(string msg)
-    {
-        popupPanel.SetActive(true);
-
-        popupText.text = msg;
-
-        yield return new WaitForSecondsRealtime(2f);
-
-        popupPanel.SetActive(false);
-    }
+   
 
     public void ShowDiary(string message)
 

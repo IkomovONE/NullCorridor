@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class DiaryPickup : MonoBehaviour
 {
-    public string diaryID;
+    public int diaryID;
 }
