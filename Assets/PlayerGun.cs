@@ -27,16 +27,13 @@ public class PlayerGun : MonoBehaviour
    
 
     private UIManager ui;
-    private AudioSource audioSource;
+    public AudioSource GunAudioSource;
     void Start()
     {
         ui = FindFirstObjectByType<UIManager>();
-        audioSource = GetComponent<AudioSource>();
-
-       
-
         
 
+   
         if (ui != null)
             ui.UpdateAmmo(ammo, maxAmmo);
     }
@@ -89,7 +86,7 @@ public class PlayerGun : MonoBehaviour
 
             if (emptyClickSound != null)
 
-                audioSource.PlayOneShot(emptyClickSound);
+                GunAudioSource.PlayOneShot(emptyClickSound);
 
             return;
 
@@ -128,7 +125,7 @@ public class PlayerGun : MonoBehaviour
 
         if (shootSound != null)
 
-            audioSource.PlayOneShot(shootSound);
+            GunAudioSource.PlayOneShot(shootSound);
 
     }
 }

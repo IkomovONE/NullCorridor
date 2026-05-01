@@ -84,7 +84,7 @@ public class TutorialTrigger : MonoBehaviour
         switch (tutorialID)
         {
             case 1:
-                msg = "WASD to walk\n\nMove mouse to look around.";
+                msg = "WASD to walk\n\nMove mouse to look around.\n\nESC to open pause menu.";
                 break;
 
             case 2:

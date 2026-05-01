@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
 
     bool isInWater = false;
+    private bool wasInWater = false;
     public RippleLoop ripple;
 
     public AudioSource waterAudio;
@@ -62,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2 move = movement;
 
-        // 🔥 CORE LOGIC: what are we standing on?
+        
         bool onIsland = Physics2D.OverlapCircle(
             groundCheck.position,
             checkRadius,
@@ -85,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
             move != Vector2.zero &&
             stamina > 0f;
 
-        // STAMINA
+        
         if (staminaLocked)
         {
             currentSpeed = sprinting ? runSpeed : walkSpeed;
@@ -109,39 +110,47 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        Debug.Log("Water: " + onWater + " | Island: " + onIsland);
+        
 
-        // 🌊 WATER BEHAVIOR
+        
         if (isInWater)
         {
             currentSpeed *= 0.6f;
 
-            if (movement.magnitude > 0.1f)
-            {
-                ripple.isActive = true;
+            bool moving = movement != Vector2.zero;
 
-                if (!waterAudio.isPlaying)
+            // RIPPLE
+            if (ripple != null)
+                ripple.isActive = moving;
+
+            // AUDIO
+            if (waterAudio != null)
+            {
+                if (moving)
                 {
-                    waterAudio.clip = waterLoop;
-                    waterAudio.loop = true;
-                    waterAudio.Play();
+                    if (!waterAudio.isPlaying)
+                    {
+                        waterAudio.clip = waterLoop;
+                        waterAudio.loop = true;
+                        waterAudio.volume = 0.1f;
+                        waterAudio.Play();
+                    }
+
+                    waterAudio.pitch = sprinting ? 1.4f : 1f;
                 }
-
-                waterAudio.pitch = sprinting ? 1.4f : 1f;
-            }
-            else
-            {
-                ripple.isActive = false;
-
-                if (waterAudio.isPlaying)
-                    waterAudio.Stop();
+                else
+                {
+                    if (waterAudio.isPlaying)
+                        waterAudio.Stop();
+                }
             }
         }
         else
         {
-            ripple.isActive = false;
+            if (ripple != null)
+                ripple.isActive = false;
 
-            if (waterAudio.isPlaying)
+            if (waterAudio != null && waterAudio.isPlaying)
                 waterAudio.Stop();
         }
 
@@ -150,7 +159,7 @@ public class PlayerMovement : MonoBehaviour
         if (ui != null)
             ui.UpdateStamina(stamina, maxStamina);
 
-        // 🎯 AIM
+        
         if (aim.x < -0.5f && aim.y > 0.5f)
         {
             sr.flipX = true;
