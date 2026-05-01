@@ -15,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
 
+    bool isInWater = false;
+    public RippleLoop ripple;
+
+    public AudioSource waterAudio;
+    public AudioClip waterLoop;
+
     private bool staminaLocked = false;
     private float staminaLockTimer = 0f;
 
@@ -59,6 +65,18 @@ public class PlayerMovement : MonoBehaviour
         staminaLocked = true;
         staminaLockTimer = seconds;
         stamina = maxStamina;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Water"))
+            isInWater = true;
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Water"))
+            isInWater = false;
     }
 
     void Update()
@@ -107,16 +125,63 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        if (isInWater)
+        {
+
+            currentSpeed *= 0.6f;
+            if (movement.magnitude > 0.1f)
+
+            {
+                ripple.isActive = true;
+
+                if (!waterAudio.isPlaying)
+
+                {
+
+                    waterAudio.clip = waterLoop;
+
+                    waterAudio.loop = true;
+
+                    waterAudio.Play();
+
+                }
+
+                
+
+                waterAudio.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.4f : 1f;
+
+            }
+
+            else
+
+            {
+                ripple.isActive = false;
+
+                if (waterAudio.isPlaying)
+
+                    waterAudio.Stop();
+
+            }
+
+        }
+
+        else
+
+        {
+
+            if (waterAudio.isPlaying) waterAudio.Stop();
+
+        }
+
+
+
         stamina = Mathf.Clamp(stamina, 0f, maxStamina);
 
         if (ui != null)
             ui.UpdateStamina(stamina, maxStamina);
 
-        // =========================
-        // AIM SNAP DIRECTIONS
-        // =========================
 
-        // LEFT UP
+
         if (aim.x < -0.5f && aim.y > 0.5f)
         {
             sr.flipX = true;
@@ -129,7 +194,7 @@ public class PlayerMovement : MonoBehaviour
             gunPivot.localPosition = new Vector3(0.40f, 0.80f, 0);
         }
 
-        // LEFT DOWN
+        
         else if (aim.x < -0.5f && aim.y < -0.5f)
         {
             sr.flipX = true;
