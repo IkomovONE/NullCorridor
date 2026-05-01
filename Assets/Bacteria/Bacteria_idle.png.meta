@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 78266e758161b42ac8a709f6b2b35fc7
+guid: 013f4ead305e94ee4a13bad57797f005
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7258468774770224089
-    second: Bacteria_0
+      213: 6188115660367252667
+    second: Bacteria_11zon_0
   - first:
-      213: -1799354182350750853
-    second: Bacteria_1
+      213: 7991863730245754893
+    second: Bacteria_11zon_1
   - first:
-      213: 6445302985642933610
-    second: Bacteria_2
+      213: 509733952520980122
+    second: Bacteria_11zon_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,35 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bacteria_0
+      name: Bacteria_11zon_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 172
-        width: 422
-        height: 695
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 75, y: 0, z: 42, w: 14}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dba175c4e24bb460800000000000000
-      internalID: 7258468774770224089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_1
-      rect:
-        serializedVersion: 2
-        x: 593
-        y: 137
-        width: 322
-        height: 748
+        x: 31
+        y: 72
+        width: 125
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,30 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7bbedf87e86707e0800000000000000
-      internalID: -1799354182350750853
+      spriteID: bbcc835386a90e550800000000000000
+      internalID: 6188115660367252667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_2
+      name: Bacteria_11zon_1
       rect:
         serializedVersion: 2
-        x: 1109
-        y: 140
-        width: 317
-        height: 741
+        x: 231
+        y: 71
+        width: 133
+        height: 267
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 4, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6df201bae0527950800000000000000
-      internalID: 6445302985642933610
+      spriteID: d0060ae48bdc8ee60800000000000000
+      internalID: 7991863730245754893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bacteria_11zon_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 73
+        width: 127
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9608f14450f21700800000000000000
+      internalID: 509733952520980122
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9c36b35a53d7a4800b86dfa5ec9011cd
+    spriteID: 2bf0de62e5e234f24910055736a3222f
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bacteria_0: 7258468774770224089
-      Bacteria_1: -1799354182350750853
-      Bacteria_2: 6445302985642933610
+      Bacteria_11zon_0: 6188115660367252667
+      Bacteria_11zon_1: 7991863730245754893
+      Bacteria_11zon_2: 509733952520980122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -237,7 +237,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Red Smile Idle_0 1
+  m_Name: Red Smile Idle_Final_Controller
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: isMoving
@@ -294,9 +294,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.5027251
-  m_TransitionOffset: 21.851408
-  m_ExitTime: 0
+  m_TransitionDuration: 1.4056962
+  m_TransitionOffset: 21.851412
+  m_ExitTime: 0.000000007315082
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

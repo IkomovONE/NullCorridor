@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: b532afac0e7b249a2b9842dd07aa6763
+guid: 22df323d41268455c9cf61af1c615aec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6240585022291518471
-    second: Bacteria_chase-removebg-preview_0
+      213: -4554300699829260089
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_0
   - first:
-      213: -4824126382604423213
-    second: Bacteria_chase-removebg-preview_1
+      213: 8554273119246351203
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_1
   - first:
-      213: 7038565755863364917
-    second: Bacteria_chase-removebg-preview_2
+      213: -6619315369227600996
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_2
   - first:
-      213: -4185999069840465192
-    second: Bacteria_chase-removebg-preview_3
+      213: 3240452902875925168
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_3
   - first:
-      213: 2090540438626117637
-    second: Bacteria_chase-removebg-preview_4
+      213: -2629745956574689578
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_4
+  - first:
+      213: -4635851699715652832
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_5
+  - first:
+      213: 5399940881224952630
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_6
+  - first:
+      213: 6135883895558234545
+    second: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bacteria_chase-removebg-preview_0
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 481
-        y: 113
-        width: 114
-        height: 172
+        x: 452
+        y: 223
+        width: 120
+        height: 156
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7042f4483030b9650800000000000000
-      internalID: 6240585022291518471
+      spriteID: 7c03d5aa4afdbc0c0800000000000000
+      internalID: -4554300699829260089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_chase-removebg-preview_1
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 115
-        width: 106
-        height: 173
+        x: 18
+        y: 221
+        width: 125
+        height: 158
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3dfe5454d924d0db0800000000000000
-      internalID: -4824126382604423213
+      spriteID: 36bf9585412e6b670800000000000000
+      internalID: 8554273119246351203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_chase-removebg-preview_2
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 125
-        y: 114
-        width: 118
-        height: 174
+        x: 190
+        y: 225
+        width: 95
+        height: 153
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 535f67653420ea160800000000000000
-      internalID: 7038565755863364917
+      spriteID: c9bb7e80eb77324a0800000000000000
+      internalID: -6619315369227600996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_chase-removebg-preview_3
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 253
-        y: 112
-        width: 107
-        height: 172
+        x: 312
+        y: 228
+        width: 105
+        height: 152
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d22b0c360858e5c0800000000000000
-      internalID: -4185999069840465192
+      spriteID: 0ba8d4b1fb668fc20800000000000000
+      internalID: 3240452902875925168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_chase-removebg-preview_4
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 380
-        y: 112
-        width: 99
-        height: 173
+        x: 23
+        y: 29
+        width: 117
+        height: 152
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +237,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50826e8e377130d10800000000000000
-      internalID: 2090540438626117637
+      spriteID: 6d688d84cf3418bd0800000000000000
+      internalID: -2629745956574689578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 28
+        width: 100
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023ce0fd0752aafb0800000000000000
+      internalID: -4635851699715652832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 90
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63be5811f9170fa40800000000000000
+      internalID: 5399940881224952630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 29
+        width: 119
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1e9c9c4e9072550800000000000000
+      internalID: 6135883895558234545
       vertices: []
       indices: 
       edges: []
@@ -238,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5a07afbf186be4758b4088e24a305bcf
+    spriteID: 69a3f2fb876f543e6bd9a1d56603a72c
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bacteria_chase-removebg-preview_0: 6240585022291518471
-      Bacteria_chase-removebg-preview_1: -4824126382604423213
-      Bacteria_chase-removebg-preview_2: 7038565755863364917
-      Bacteria_chase-removebg-preview_3: -4185999069840465192
-      Bacteria_chase-removebg-preview_4: 2090540438626117637
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_0: -4554300699829260089
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_1: 8554273119246351203
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_2: -6619315369227600996
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_3: 3240452902875925168
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_4: -2629745956574689578
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_5: -4635851699715652832
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_6: 5399940881224952630
+      d2942c8a812b3bfb3252fc8566f515b6bdd1cf56efe15d48d787de5b36ea8521-removebg-preview_7: 6135883895558234545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

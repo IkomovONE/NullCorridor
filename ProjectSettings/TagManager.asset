@@ -10,6 +10,7 @@ TagManager:
   - Level1- Tutorial Lobby
   - Level2- Lobby
   - Level3- Pools
+  - Bacteria
   layers:
   - Default
   - TransparentFX

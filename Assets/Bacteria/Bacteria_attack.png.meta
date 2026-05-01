@@ -1,37 +1,34 @@
 fileFormatVersion: 2
-guid: fcfad7fd744264a2bb3a39cddad1c549
+guid: 92a1f2368efad4c03b5606461ce95069
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 933046243084749220
-    second: Bacteria_attack-removebg-preview_0
+      213: 3651001943613690517
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_0
   - first:
-      213: -2902216527575958352
-    second: Bacteria_attack-removebg-preview_1
+      213: 9064680626997499137
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_1
   - first:
-      213: -9069691382434249650
-    second: Bacteria_attack-removebg-preview_2
+      213: -8897766525491895977
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_2
   - first:
-      213: -7979264882687838811
-    second: Bacteria_attack-removebg-preview_3
+      213: -1437991845467664554
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_3
   - first:
-      213: 8634028650759297948
-    second: Bacteria_attack-removebg-preview_4
+      213: -2695662737404421687
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_4
   - first:
-      213: -2589048765457078159
-    second: Bacteria_attack-removebg-preview_5
+      213: -1954398352537968841
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_5
   - first:
-      213: 4091170841549605239
-    second: Bacteria_attack-removebg-preview_6
+      213: 2813440924864109685
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_6
   - first:
-      213: 1523541795406714619
-    second: Bacteria_attack-removebg-preview_7
+      213: 2222493095276744313
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_7
   - first:
-      213: -515034233214153658
-    second: Bacteria_attack-removebg-preview_8
-  - first:
-      213: -6324143509874963671
-    second: Bacteria_attack-removebg-preview_9
+      213: -4840990563239371779
+    second: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,1189 +137,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bacteria_attack_0
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 344
-        width: 64
-        height: 64
+        x: 370
+        y: 224
+        width: 196
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 06c2db1b3ecc54f22922a89a0445202e
-      internalID: -959043471
+      spriteID: 592da538ce6faa230800000000000000
+      internalID: 3651001943613690517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_attack_1
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 344
-        width: 64
-        height: 64
+        x: 19
+        y: 222
+        width: 72
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 79b29208e50014296a025c0ea3609dac
-      internalID: -1584965295
+      spriteID: 1051d86e0073ccd70800000000000000
+      internalID: 9064680626997499137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_attack_2
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 344
-        width: 64
-        height: 64
+        x: 121
+        y: 228
+        width: 104
+        height: 136
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6ff06bc9aaf51401dba1b7cec8b10bed
-      internalID: -117370071
+      spriteID: 751a1b9cc78c48480800000000000000
+      internalID: -8897766525491895977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_attack_3
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 344
-        width: 64
-        height: 64
+        x: 234
+        y: 228
+        width: 130
+        height: 133
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: de9ab7746598346c4bc0d8c5ffd9807c
-      internalID: 1165183044
+      spriteID: 65fcdfc090a3b0ce0800000000000000
+      internalID: -1437991845467664554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_attack_4
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 344
-        width: 64
-        height: 64
+        x: 23
+        y: 31
+        width: 139
+        height: 139
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 41497cf7df1924a0686c0fa3dd76099b
-      internalID: -1288742630
+      spriteID: 9c990c6c505179ad0800000000000000
+      internalID: -2695662737404421687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_attack_5
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 344
-        width: 64
-        height: 64
+        x: 166
+        y: 36
+        width: 173
+        height: 136
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 796e9aa4759d04c5fbe8b7f33e14f22f
-      internalID: 2053987892
+      spriteID: 73f9d5f9d0590e4e0800000000000000
+      internalID: -1954398352537968841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_attack_6
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 344
-        width: 64
-        height: 64
+        x: 340
+        y: 32
+        width: 111
+        height: 132
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cc960929dfdc846ccbfaa0e488cfe4fe
-      internalID: -1831804715
+      spriteID: 97e8ab3e1b1e7de10800000000000000
+      internalID: 2222493095276744313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bacteria_attack_7
+      name: B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_8
       rect:
         serializedVersion: 2
-        x: 448
-        y: 344
-        width: 64
-        height: 64
+        x: 488
+        y: 34
+        width: 68
+        height: 142
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7081b82f11a2742f0a6641ee6dd1b887
-      internalID: 150701228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 344
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9badf743b89e41ab9bcba6321e471fc
-      internalID: -1478613395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61be626aae4e3430ca850f06b3bf16d4
-      internalID: -909887981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4dadf7438bc8439381c14be96efdc4f
-      internalID: 1942304671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_11
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f43f5e625bec4da0a15a55cd4899c4a
-      internalID: -658252640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_12
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77360399cc37b4e2daeedf351175f51f
-      internalID: 1861892399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_13
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 180c620d0ac2f45d98cddc2920180909
-      internalID: 319763650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_14
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e23d9c4499cd343c9bc1203d4089c5f7
-      internalID: -1506458762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_15
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdc2f0882372b4164863ab8e4327ec7d
-      internalID: 994361569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_16
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 266862852c1d04221b1d9cd58465aff8
-      internalID: -866678883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_17
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 280
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddae44d7bf9024b4a8f70de9a4780254
-      internalID: -1683346982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cef495fc2328e45d788b21dd9b9834cc
-      internalID: 809925380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_19
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fd60482a3b024bbaaed12b9df2267e6
-      internalID: -1989131456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_20
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 290b0391f0ef7487d9e62a354859b517
-      internalID: 202444424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_21
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e6c3d2c95d224833a82ad4891281b7e
-      internalID: 2146055313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_22
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1dabcde6558e4dedb4dcff464fdf80d
-      internalID: -151325238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_23
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a790acdf34c9d4540af7581180beaf61
-      internalID: -1287074191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_24
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 086fdf0c08d7c49fe8ae578e1b50b57e
-      internalID: 1927518855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_25
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a302efb2764c14ae4bc5c4e470cbd86c
-      internalID: 127834086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_26
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3f0494eb27704bc3b14ca2092596ca7
-      internalID: 1512967462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_27
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 718d76578067d4f40918e562243213d6
-      internalID: -1826809431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_28
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7df6d1d5cc7224331bbe7551a1336966
-      internalID: 91485144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_29
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94e7c17b6b4124b1bbdbf9661a65bd86
-      internalID: -1425874355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_30
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa34649d448fb4a9dbed630bb9ed3edf
-      internalID: -1712121876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_31
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cc0a6cc33a3d4eaeb5e097d46580783
-      internalID: -1492460111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_32
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c41a3507ac674e7d8f9bb2a199ecf35
-      internalID: -471194155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_33
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77ee635f6f5314803adc59327a73cc7e
-      internalID: 92246421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_34
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dd11e1d03d0b497d8ad0a57cb074d83
-      internalID: -1236731659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_35
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56f0ba7a8b1e54f9a81e122db499a65f
-      internalID: -1936696632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bf0e8ecc65ea460d83b48690cd007dd
-      internalID: 941435472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_37
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b56f5b7729274a6fbf744d8ae7dde51
-      internalID: 262445643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_38
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edf94754e4ea948ad8804273d0619ce9
-      internalID: -284216788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_39
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a275aa4dfe0144c418ea920ca718ca15
-      internalID: -1628414670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_40
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 774e736e162bc4f53aad9da0082611a1
-      internalID: -1617820595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_41
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d244f7008ef1e4e86836abc9901dfb0e
-      internalID: 1769288230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_42
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2d833c18bb7d400a8d215992b732d9b
-      internalID: 1968295583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_43
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8d2ef1d2ac9c4715b41a1e79d76f12d
-      internalID: -1480165852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_44
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 88
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36de06083f52046b59792ac604038828
-      internalID: 2101625981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_45
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b13efd6a91454d9ba4a14feac499051
-      internalID: -796371714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_46
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 902e516f5f050407dacc21815a1f28eb
-      internalID: -1782778132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_47
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40e2318b9624343df9f08120ada96de4
-      internalID: 228678836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_48
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcfe715d322c54b60b166ce75b540a2b
-      internalID: 940522341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_49
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb64277a167984508849286969538136
-      internalID: -1179392340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_50
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cee4d2d55950f458983d3757738dd3e8
-      internalID: -284693093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_51
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46afe190c2a7e4b7391b569f588afc3c
-      internalID: 723184842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_52
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8416a76779314c638d3c01e0e3a1e43
-      internalID: 1257481313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bacteria_attack_53
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 24
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f4c0453dbe2744e7bef673b51520144
-      internalID: 254929299
+      spriteID: dfb591d3bb851dcb0800000000000000
+      internalID: -4840990563239371779
       vertices: []
       indices: 
       edges: []
@@ -1331,7 +316,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: adf4068844fc04834a0c213e2bdce95f
+    spriteID: b7901ceff0ee742ec8da47760fbc749e
     internalID: 0
     vertices: []
     indices: 
@@ -1339,64 +324,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Bacteria_attack_0: -959043471
-      Bacteria_attack_1: -1584965295
-      Bacteria_attack_10: 1942304671
-      Bacteria_attack_11: -658252640
-      Bacteria_attack_12: 1861892399
-      Bacteria_attack_13: 319763650
-      Bacteria_attack_14: -1506458762
-      Bacteria_attack_15: 994361569
-      Bacteria_attack_16: -866678883
-      Bacteria_attack_17: -1683346982
-      Bacteria_attack_18: 809925380
-      Bacteria_attack_19: -1989131456
-      Bacteria_attack_2: -117370071
-      Bacteria_attack_20: 202444424
-      Bacteria_attack_21: 2146055313
-      Bacteria_attack_22: -151325238
-      Bacteria_attack_23: -1287074191
-      Bacteria_attack_24: 1927518855
-      Bacteria_attack_25: 127834086
-      Bacteria_attack_26: 1512967462
-      Bacteria_attack_27: -1826809431
-      Bacteria_attack_28: 91485144
-      Bacteria_attack_29: -1425874355
-      Bacteria_attack_3: 1165183044
-      Bacteria_attack_30: -1712121876
-      Bacteria_attack_31: -1492460111
-      Bacteria_attack_32: -471194155
-      Bacteria_attack_33: 92246421
-      Bacteria_attack_34: -1236731659
-      Bacteria_attack_35: -1936696632
-      Bacteria_attack_36: 941435472
-      Bacteria_attack_37: 262445643
-      Bacteria_attack_38: -284216788
-      Bacteria_attack_39: -1628414670
-      Bacteria_attack_4: -1288742630
-      Bacteria_attack_40: -1617820595
-      Bacteria_attack_41: 1769288230
-      Bacteria_attack_42: 1968295583
-      Bacteria_attack_43: -1480165852
-      Bacteria_attack_44: 2101625981
-      Bacteria_attack_45: -796371714
-      Bacteria_attack_46: -1782778132
-      Bacteria_attack_47: 228678836
-      Bacteria_attack_48: 940522341
-      Bacteria_attack_49: -1179392340
-      Bacteria_attack_5: 2053987892
-      Bacteria_attack_50: -284693093
-      Bacteria_attack_51: 723184842
-      Bacteria_attack_52: 1257481313
-      Bacteria_attack_53: 254929299
-      Bacteria_attack_6: -1831804715
-      Bacteria_attack_7: 150701228
-      Bacteria_attack_8: -1478613395
-      Bacteria_attack_9: -909887981
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_0: 3651001943613690517
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_1: 9064680626997499137
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_2: -8897766525491895977
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_3: -1437991845467664554
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_4: -2695662737404421687
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_5: -1954398352537968841
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_6: 2813440924864109685
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_7: 2222493095276744313
+      B2153384-92B4-4F3C-A95A-27C2D1B76DB0-removebg-preview_8: -4840990563239371779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

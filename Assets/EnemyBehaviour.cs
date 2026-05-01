@@ -7,6 +7,16 @@ public class EnemyMove : MonoBehaviour
     public LayerMask wallLayer;
     public Transform player;
 
+    [Header("Bacteria Animation Speeds")]
+
+    public float bacteriaChaseAnimSpeed = 1.2f;
+
+    public float bacteriaAttackAnimSpeed = 0.9f;
+
+    public float bacteriaPatrolAnimSpeed = 0.1f;
+
+    private bool isBacteria = false;
+
     public int health = 1;
 
     private Animator animator;
@@ -55,6 +65,8 @@ public class EnemyMove : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         originalColor = sr.color;
         patrolCenter = transform.position;
+
+        isBacteria = CompareTag("Bacteria");
 
         if (player == null)
         {
@@ -139,7 +151,7 @@ public class EnemyMove : MonoBehaviour
         if (dead) return;
         animator.SetBool("isMoving", true);
         animator.SetBool("isIdling", false);
-        animator.speed = 1.5f;
+        animator.speed = isBacteria ? bacteriaChaseAnimSpeed : 1.5f;
 
         transform.position = Vector2.MoveTowards(
             transform.position,
@@ -148,9 +160,9 @@ public class EnemyMove : MonoBehaviour
         );
 
         if (player.position.x > transform.position.x)
-            sr.flipX = true;
+            sr.flipX = isBacteria ? false : true;
         else
-            sr.flipX = false;
+            sr.flipX = isBacteria ? true : false;
     }
 
     void Attack()
@@ -164,7 +176,7 @@ public class EnemyMove : MonoBehaviour
             animator.SetBool("isAttacking", true);
             animator.SetBool("isMoving", false);
             animator.SetBool("isIdling", false);
-            animator.speed = 1f;
+            animator.speed = isBacteria ? bacteriaAttackAnimSpeed : 1f;
 
             return;
         }
@@ -172,12 +184,14 @@ public class EnemyMove : MonoBehaviour
         // Ready to strike
         animator.SetBool("isAttacking", true);
         animator.SetBool("isMoving", false);
-        audioSource.PlayOneShot(attackSound);
+       
         animator.speed = 1f;
 
         if (Time.time >= nextAttackTime)
         {
             nextAttackTime = Time.time + attackCooldown;
+
+            audioSource.PlayOneShot(attackSound);
 
             if (player != null)
             {
@@ -210,16 +224,16 @@ public class EnemyMove : MonoBehaviour
         }
 
         animator.SetBool("isMoving", true);
-        animator.speed = 0.15f;
+        animator.speed = isBacteria ? bacteriaPatrolAnimSpeed : 0.15f;
 
         float dir = movingRight ? 1f : -1f;
 
         transform.Translate(Vector2.right * dir * patrolSpeed * Time.deltaTime);
 
         if (movingRight)
-            sr.flipX = true;
+            sr.flipX = isBacteria ? false : true;
         else
-            sr.flipX = false;
+            sr.flipX = isBacteria ? true : false;
 
         moveTimer -= Time.deltaTime;
 
