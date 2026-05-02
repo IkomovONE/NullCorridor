@@ -28,7 +28,7 @@ public class LightFlicker : MonoBehaviour
         {
             BlackoutTime -= Time.deltaTime;
             light2D.intensity = 0f;
-            Debug.Log("Blackout Time: " + BlackoutTime);
+            
 
             if (BlackoutTime <= 0f)
             {

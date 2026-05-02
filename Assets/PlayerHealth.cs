@@ -32,11 +32,10 @@ public class PlayerHealth : MonoBehaviour
 
         StartCoroutine(DamageFlash());
 
-        Debug.Log("HP: " + currentHealth);
+        
 
         if (currentHealth <= 0)
         {
-            Debug.Log("Player Dead");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

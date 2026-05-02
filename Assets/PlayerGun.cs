@@ -99,7 +99,7 @@ public class PlayerGun : MonoBehaviour
 
         
 
-        Debug.DrawRay(shotOrigin, gun.right * shootRange, Color.red, 2f);
+        
 
         RaycastHit2D hit = Physics2D.Raycast(
             shotOrigin,

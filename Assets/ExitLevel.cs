@@ -127,7 +127,7 @@ public class ExitDoor : MonoBehaviour
         levelCompleteUI.SetActive(true);
 
         SaveSystem.SaveLevelStats(levelID, percent, found, total);
-        SaveSystem.SaveProgress(nextSceneName, unlockLevelNumber);
+        SaveSystem.SaveProgress(levelID, unlockLevelNumber);
 
         yield return new WaitForSecondsRealtime(3f);
 
