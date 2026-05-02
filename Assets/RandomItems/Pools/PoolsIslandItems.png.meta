@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 46be5d9b4225a425a99e2c9594b69f78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4855137352362169098
+    second: PoolsIslandItems_0
+  - first:
+      213: -5818918065413955503
+    second: PoolsIslandItems_1
+  - first:
+      213: 8549505091582095523
+    second: PoolsIslandItems_2
+  - first:
+      213: 7896909372092126046
+    second: PoolsIslandItems_3
+  - first:
+      213: -926434004763109339
+    second: PoolsIslandItems_4
+  - first:
+      213: -3421016680415383903
+    second: PoolsIslandItems_5
+  - first:
+      213: -6744695926635891033
+    second: PoolsIslandItems_6
+  - first:
+      213: 483154389774801067
+    second: PoolsIslandItems_7
+  - first:
+      213: 1376032767814213536
+    second: PoolsIslandItems_8
+  - first:
+      213: -419231669893474885
+    second: PoolsIslandItems_9
+  - first:
+      213: -7412158117084806093
+    second: PoolsIslandItems_10
+  - first:
+      213: -5710273626955963410
+    second: PoolsIslandItems_11
+  - first:
+      213: 2306924180111961804
+    second: PoolsIslandItems_12
+  - first:
+      213: -7571253810498142277
+    second: PoolsIslandItems_13
+  - first:
+      213: 2149415836819966942
+    second: PoolsIslandItems_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PoolsIslandItems_0
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 259
+        width: 59
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a031747c2b9e06340800000000000000
+      internalID: 4855137352362169098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 256
+        width: 86
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150e5e579dc0f3fa0800000000000000
+      internalID: -5818918065413955503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 253
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0f4256591f5a670800000000000000
+      internalID: 8549505091582095523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 248
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53110bfb35779d60800000000000000
+      internalID: 7896909372092126046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 260
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528904e5e25a423f0800000000000000
+      internalID: -926434004763109339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 134
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aea729547b1680d0800000000000000
+      internalID: -3421016680415383903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6f7d62ac60662a0800000000000000
+      internalID: -6744695926635891033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 38
+        width: 86
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8923e8b5284b600800000000000000
+      internalID: 483154389774801067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 133
+        width: 150
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af1dd40386a81310800000000000000
+      internalID: 1376032767814213536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 31
+        width: 158
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5d76574079e2af0800000000000000
+      internalID: -419231669893474885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 148
+        width: 136
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334c12cb679b22990800000000000000
+      internalID: -7412158117084806093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_11
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 30
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3220ff36801c0b0800000000000000
+      internalID: -5710273626955963410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoolsIslandItems_12
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 141
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2557b157d30020800000000000000
+      internalID: 2306924180111961804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 44e9d5a3431404e03911ff556b75a8e7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PoolsIslandItems_0: 4855137352362169098
+      PoolsIslandItems_1: -5818918065413955503
+      PoolsIslandItems_10: -7412158117084806093
+      PoolsIslandItems_11: -5710273626955963410
+      PoolsIslandItems_12: 2306924180111961804
+      PoolsIslandItems_13: -7571253810498142277
+      PoolsIslandItems_14: 2149415836819966942
+      PoolsIslandItems_2: 8549505091582095523
+      PoolsIslandItems_3: 7896909372092126046
+      PoolsIslandItems_4: -926434004763109339
+      PoolsIslandItems_5: -3421016680415383903
+      PoolsIslandItems_6: -6744695926635891033
+      PoolsIslandItems_7: 483154389774801067
+      PoolsIslandItems_8: 1376032767814213536
+      PoolsIslandItems_9: -419231669893474885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

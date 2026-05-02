@@ -118,7 +118,7 @@ public class StoryTrigger : MonoBehaviour
                 break;
 
             case 17:
-                msg = "That’s not good...\n I can hear something in the water...\n It’s getting louder...";
+                msg = "That’s not good...\n I can hear something behind the wall walking in the water...\n It’s getting louder...";
                 break;
 
             default:
