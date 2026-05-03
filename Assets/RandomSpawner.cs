@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+//This class is used to handle random spawners.
 public class RandomSpawner : MonoBehaviour
 {
     [Range(0f, 1f)]
@@ -7,17 +9,16 @@ public class RandomSpawner : MonoBehaviour
 
     void Start()
     {
-        // disable all children first
+        
         foreach (Transform child in transform)
             child.gameObject.SetActive(false);
 
-        // chance to spawn nothing
+        
         if (Random.value > spawnChance)
             return;
 
-        // choose one random child
+       
         int index = Random.Range(0, transform.childCount);
-
         transform.GetChild(index).gameObject.SetActive(true);
     }
 }

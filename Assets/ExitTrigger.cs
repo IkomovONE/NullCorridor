@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+//This class is used to handle the exit trigger for the level, which displays a win message and stops time when the player reaches it.
 public class ExitTrigger : MonoBehaviour
 {
     public GameObject winText;

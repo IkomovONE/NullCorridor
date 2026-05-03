@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+//This class is used to handle the pickups in the game, which can restore health, stamina, sanity, ammo, or be a diary entry.
 public class PickupItem : MonoBehaviour
 {
     public enum PickupType
@@ -14,14 +16,10 @@ public class PickupItem : MonoBehaviour
     public AudioClip medkitSound;
     public AudioClip drinkSound;
     public AudioClip pillSound;
-
     public AudioClip ammoSound;
-
     public AudioClip DiarySound;
-
     public PickupType pickupType;
     public float amount = 25f;
-
     private UIManager ui;
 
     void Start()
@@ -85,12 +83,9 @@ public class PickupItem : MonoBehaviour
 
                 {
 
-                    UIManager ui =
-
-                        FindFirstObjectByType<UIManager>();
+                    UIManager ui = FindFirstObjectByType<UIManager>();
 
                     if (ui != null)
-
                         ui.CollectDiary(dp.diaryID);
 
                 }
@@ -125,11 +120,7 @@ public class PickupItem : MonoBehaviour
 
         if (soundToPlay != null)
         {
-            AudioSource.PlayClipAtPoint(
-                soundToPlay,
-                Camera.main.transform.position,
-                0.7f
-            );
+            AudioSource.PlayClipAtPoint(soundToPlay, Camera.main.transform.position, 0.7f);
         }
 
         Destroy(gameObject);

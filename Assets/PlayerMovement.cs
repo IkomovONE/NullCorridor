@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+//This class us used to control the player's movement, including walking, running, stamina, and interactions with water.
 public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
@@ -41,7 +43,6 @@ public class PlayerMovement : MonoBehaviour
     public float stamina = 100f;
     public float staminaDrain = 25f;
     public float staminaRegen = 18f;
-
     private UIManager ui;
 
     void Start()
@@ -119,11 +120,11 @@ public class PlayerMovement : MonoBehaviour
 
             bool moving = movement != Vector2.zero;
 
-            // RIPPLE
+           
             if (ripple != null)
                 ripple.isActive = moving;
 
-            // AUDIO
+            
             if (waterAudio != null)
             {
                 if (moving)
@@ -233,7 +234,7 @@ public class PlayerMovement : MonoBehaviour
             gunPivot.localPosition = new Vector3(-0.30f, 0.65f, 0);
         }
 
-        // 🎬 ANIMATION
+        
         if (!animationLocked)
         {
             if (move != Vector2.zero)

@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
+
+//This class defines the behaviour of the enemy characters in the game, including their movement patterns, attack logic, health, and death.
 public class EnemyMove : MonoBehaviour
 {
 
@@ -10,15 +12,10 @@ public class EnemyMove : MonoBehaviour
     [Header("Bacteria Animation Speeds")]
 
     public float bacteriaChaseAnimSpeed = 1.2f;
-
     public float bacteriaAttackAnimSpeed = 0.9f;
-
     public float bacteriaPatrolAnimSpeed = 0.1f;
-
     private bool isBacteria = false;
-
     public int health = 1;
-
     private Animator animator;
     private SpriteRenderer sr;
 
@@ -33,29 +30,21 @@ public class EnemyMove : MonoBehaviour
 
     public AudioClip chaseSound;
     public AudioClip attackSound;
-
     public AudioClip deathSound;
     public AudioClip damageSound;
-
     private AudioSource audioSource;
     private bool wasChasing = false;
-
     private Vector3 patrolCenter;
     private bool movingRight = true;
-
     private float idleTimer = 0f;
     private float moveTimer = 3f;
 
     [Header("Attack")]
 
     public int damage = 1;
-
     private float attackRecoverTimer = 0;
-
     public float attackCooldown = 0.8f;
-
     private float nextAttackTime = 0.5f;
-
     bool dead = false;
 
     void Start()
@@ -96,12 +85,9 @@ public class EnemyMove : MonoBehaviour
     {
         if (player == null) return;
 
-        
-        
-
         float dist = Vector2.Distance(transform.position, player.position);
 
-        // ATTACK
+       
         if (dist <= attackRadius)
         {
             animator.SetBool("isMoving", false);
@@ -113,7 +99,7 @@ public class EnemyMove : MonoBehaviour
             animator.SetBool("isAttacking", false);
         }
 
-        // CHASE
+       
         if (dist <= chaseRadius && CanSeePlayer())
 
         {
@@ -142,7 +128,7 @@ public class EnemyMove : MonoBehaviour
 
         }
 
-        // PATROL
+        
         Patrol();
     }
 
@@ -181,7 +167,7 @@ public class EnemyMove : MonoBehaviour
             return;
         }
 
-        // Ready to strike
+        
         animator.SetBool("isAttacking", true);
         animator.SetBool("isMoving", false);
        
@@ -214,7 +200,7 @@ public class EnemyMove : MonoBehaviour
     {
         if (dead) return;
         
-        // idle phase
+        
         if (idleTimer > 0f)
         {
             idleTimer -= Time.deltaTime;
@@ -239,12 +225,12 @@ public class EnemyMove : MonoBehaviour
 
         if (moveTimer <= 0f)
         {
-            idleTimer = 2f;     // pause for 2 sec
-            moveTimer = 3f;     // move for 3 sec
+            idleTimer = 2f;     
+            moveTimer = 3f;     
             movingRight = !movingRight;
         }
 
-        // keep patrol near current area (no teleport)
+        
         float distFromCenter = transform.position.x - patrolCenter.x;
 
         if (distFromCenter > patrolRange)

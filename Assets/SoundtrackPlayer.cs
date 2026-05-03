@@ -1,5 +1,6 @@
 using UnityEngine;
 
+//This class handles the soundtracks of the game.
 public class RandomMusicPlayer : MonoBehaviour
 {
     public AudioClip[] tracks;

@@ -2,38 +2,33 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
+
+//This class defines the behaviour of the story trigger objects and states each story message text.
 public class StoryTrigger : MonoBehaviour
 {
     public int StoryID = 1;
-
     public GameObject StoryPanel;
     public TMP_Text StoryText;
-
     private Vector3 savedCamPos;
     private Quaternion savedCamRot;
     private bool freezeCamera = false;
-
     public float showTime = 4f;
     public bool triggerOnce = true;
-
     private bool used = false;
 
 
     void Update()
-
     {
-
         if (freezeCamera && Camera.main != null)
 
         {
-
             Camera.main.transform.position = savedCamPos;
-
             Camera.main.transform.rotation = savedCamRot;
-
         }
 
     }
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
@@ -41,7 +36,6 @@ public class StoryTrigger : MonoBehaviour
         if (used && triggerOnce) return;
 
         used = true;
-
         ShowMessage();
 
         
@@ -50,8 +44,7 @@ public class StoryTrigger : MonoBehaviour
     void ShowMessage()
     {
         string msg = "";
-
-        switch (StoryID)
+        switch (StoryID) //The story messages are written with help of AI (ChatGPT)
         {
             case 1:
                 msg = "Where am I...\nThis doesn’t look like any place I know.";
@@ -136,9 +129,7 @@ public class StoryTrigger : MonoBehaviour
         Time.timeScale = 0f;
 
         savedCamPos = Camera.main.transform.position;
-
         savedCamRot = Camera.main.transform.rotation;
-
         freezeCamera = true;
 
        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
@@ -149,11 +140,9 @@ public class StoryTrigger : MonoBehaviour
     }
 
     IEnumerator ShowPopupDelayed(string msg, float delay)
-
     {
 
         yield return new WaitForSeconds(delay);
-
         yield return StartCoroutine(ShowPopup(msg));
 
     }

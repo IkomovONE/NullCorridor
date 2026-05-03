@@ -1,15 +1,15 @@
 using UnityEngine;
 
+
+//This class defines the behaviour of the ripple ring loop generated when player walks in the waters.
 public class RippleLoop : MonoBehaviour
 {
     public float minScale = 0.3f;
     public float maxScale = 0.8f;
     public float speed = 2f;
     public float maxAlpha = 0.12f;
-
     private SpriteRenderer sr;
     private float t;
-
     public bool isActive = false;
 
     void Start()
@@ -26,14 +26,9 @@ public class RippleLoop : MonoBehaviour
         }
 
         t += Time.deltaTime * speed;
-
         float wave = Mathf.PingPong(t, 1f);
-
-        // scale
         float scale = Mathf.Lerp(minScale, maxScale, wave);
         transform.localScale = Vector3.one * scale;
-
-        // fade
         float alpha = Mathf.Lerp(0f, maxAlpha, wave);
         sr.color = new Color(1, 1, 1, alpha);
     }

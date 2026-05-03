@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
+
+//This class is used to create a damage flash effect on the screen when the player takes damage, providing visual feedback and enhancing the game's atmosphere.
 public class DamageFlashUI : MonoBehaviour
 {
     public Image flashImage;
@@ -15,9 +17,7 @@ public class DamageFlashUI : MonoBehaviour
     IEnumerator FlashRoutine()
     {
         flashImage.color = new Color(1f, 0f, 0f, 0.25f);
-
         yield return new WaitForSeconds(0.08f);
-
         float t = 0f;
 
         while (t < 0.3f)

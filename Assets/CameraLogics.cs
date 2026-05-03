@@ -1,9 +1,11 @@
 using UnityEngine;
 
+
+//This class is used to create a camera shake effect based on the player's sanity level, adding to the atmosphere and tension of the game as the player's sanity decreases.
 public class CameraSanityShake : MonoBehaviour
 {
     [Header("References")]
-    public Transform target;          // Player or camera follow target
+    public Transform target;          
     public PlayerSanity PlayerSanity;
 
     [Header("Follow")]
@@ -11,7 +13,7 @@ public class CameraSanityShake : MonoBehaviour
     public Vector3 offset = new Vector3(0f, 0f, -10f);
 
     [Header("Shake")]
-    public float maxShakeAmount = 0.25f;   // strongest shake at 0 sanity
+    public float maxShakeAmount = 0.25f;   
     public float shakeSpeed = 25f;
 
     private Vector3 currentPos;
@@ -32,17 +34,14 @@ public class CameraSanityShake : MonoBehaviour
     {
         if (target == null) return;
 
-        // Normal follow position
         Vector3 desiredPos = target.position + offset;
-
         currentPos = Vector3.Lerp(transform.position, desiredPos, Time.deltaTime * smoothSpeed);
-
         float sanityPercent = 1f;
 
         if (PlayerSanity != null)
             sanityPercent = PlayerSanity.currentSanity / PlayerSanity.maxSanity;
 
-        // Lower sanity = stronger shake
+        
         float shakeStrength = (1f - sanityPercent) * maxShakeAmount;
 
         Vector3 shakeOffset = new Vector3(

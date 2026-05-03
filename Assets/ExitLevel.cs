@@ -3,23 +3,19 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+
+//This class is used to handle the exit door for the level, which plays an animation, moves the player, and displays a level completion UI when the player reaches it.
 public class ExitDoor : MonoBehaviour
 {
     public Animator animator;
     public Transform player;
     public GameObject levelCompleteUI;
-
     public string levelID;
-
     public string nextSceneName;
-
     public int unlockLevelNumber = 1;
-
     public TMP_Text progressText;
-
     public BoxCollider2D blockingCollider;
     public AudioClip DoorSound;
-
     private bool playerNear = false;
     private bool activated = false;
 
@@ -43,24 +39,22 @@ public class ExitDoor : MonoBehaviour
     IEnumerator FinishSequence()
     {
         activated = true;
-
         Camera cam = Camera.main;
-
         PlayerMovement movement = player.GetComponent<PlayerMovement>();
         SpriteRenderer psr = player.GetComponent<SpriteRenderer>();
 
-        // Disable movement immediately
+        
         if (movement != null)
             movement.enabled = false;
 
-        // Remove door collision
+        
         blockingCollider.enabled = false;
 
-        // Play door sound + animation together
+        
         audioSource.PlayOneShot(DoorSound);
         animator.SetTrigger("Open");
 
-        // Camera zoom while door opens
+        
         float startSize = cam.orthographicSize;
         float targetSize = startSize - 2f;
         float t = 0f;
@@ -77,7 +71,7 @@ public class ExitDoor : MonoBehaviour
 
         yield return new WaitForSeconds(0.4f);
 
-        // Walk player into door
+        
         while (Vector2.Distance(player.position, transform.position) > 0.3f)
         {
             player.position = Vector2.MoveTowards(
@@ -89,7 +83,7 @@ public class ExitDoor : MonoBehaviour
             yield return null;
         }
 
-        // Fade player out
+        
         float fade = 1f;
 
         while (fade > 0f)

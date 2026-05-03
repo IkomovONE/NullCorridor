@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+//This class is used to handle save/load system
 public class SaveSystem : MonoBehaviour
 {
     public static void SaveProgress(string sceneName, int unlockedLevel)

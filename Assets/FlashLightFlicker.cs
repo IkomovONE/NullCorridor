@@ -1,13 +1,14 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
+
+//This class is used to create a flickering effect for the flashlight in the game, adding to the atmosphere and tension.
 public class LightFlicker : MonoBehaviour
 {
     private Light2D light2D;
     private float baseIntensity;
     private float timer;
     private float BlackoutTimer;
-
     private float BlackoutTime;
 
     
@@ -23,7 +24,7 @@ public class LightFlicker : MonoBehaviour
         timer -= Time.deltaTime;
         BlackoutTimer -= Time.deltaTime;
 
-        // If currently in blackout
+        
         if (BlackoutTime > 0f)
         {
             BlackoutTime -= Time.deltaTime;
@@ -40,7 +41,7 @@ public class LightFlicker : MonoBehaviour
             return;
         }
 
-        // Normal flicker
+        
         if (timer <= 0f)
         {
             light2D.intensity = baseIntensity + Random.Range(-0.30f, 0.08f);
@@ -53,7 +54,7 @@ public class LightFlicker : MonoBehaviour
             }
         }
 
-        // Start blackout
+        
         if (BlackoutTimer <= 0f)
         {
             BlackoutTime = Random.Range(1f, 3f);

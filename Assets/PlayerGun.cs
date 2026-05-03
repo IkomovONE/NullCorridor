@@ -1,45 +1,39 @@
 using UnityEngine;
 
+
+//This class is used to handle the player's gun, including shooting, ammo management, and interactions with enemies.
 public class PlayerGun : MonoBehaviour
 {
     [Header("Gun")]
     public int ammo = 50;
     public int maxAmmo = 100;
-
     public Transform gun;
     public float shootRange = 5f;
     public int damage = 1;
-
     public LayerMask shootMask;
-
     private Vector2 movement;
-
     private PlayerMovement move;
     public GameObject tracerPrefab;
 
     
-
     [Header("Audio")]
 
     public AudioClip shootSound;
-
     public AudioClip emptyClickSound;
    
-
     private UIManager ui;
     public AudioSource GunAudioSource;
+    
+    
     void Start()
     {
         ui = FindFirstObjectByType<UIManager>();
         
-
-   
         if (ui != null)
             ui.UpdateAmmo(ammo, maxAmmo);
     }
 
     void Update()
-
     {
 
         if (Time.timeScale == 0f) return;
@@ -56,11 +50,8 @@ public class PlayerGun : MonoBehaviour
     }
 
     void RefreshUI()
-
     {
-
         if (ui != null)
-
             ui.UpdateAmmo(ammo, maxAmmo);
 
     }
@@ -68,15 +59,11 @@ public class PlayerGun : MonoBehaviour
     
     public void AddAmmo(int amount)
     {
-        
-
         ammo = Mathf.Clamp(ammo + amount, 0, maxAmmo);
-
-        RefreshUI();
-        
+        RefreshUI(); 
     }
 
-    // Optional if enemy events damage sanity later
+    
     public void Shoot()
     {
 
@@ -94,12 +81,7 @@ public class PlayerGun : MonoBehaviour
 
         ammo--;
         
-
         Vector3 shotOrigin = gun.position + new Vector3(0f, 0.08f, 0f);;
-
-        
-
-        
 
         RaycastHit2D hit = Physics2D.Raycast(
             shotOrigin,
@@ -111,7 +93,6 @@ public class PlayerGun : MonoBehaviour
 
         if (hit.collider != null)
         {
-            Debug.Log("Hit: " + hit.collider.name);
             EnemyMove enemy = hit.collider.GetComponent<EnemyMove>();
 
             if (enemy != null)

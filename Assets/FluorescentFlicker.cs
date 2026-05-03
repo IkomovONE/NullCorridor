@@ -2,15 +2,16 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using System.Collections;
 
+
+//This class is used to create a flickering effect for the lights in the game, adding to the atmosphere and tension.
 public class FlickerLight : MonoBehaviour
 {
     public Light2D light2D;
-
     public float minIntensity = 0.15f;
     public float maxIntensity = 0.55f;
-
     public float flickerChance = 0.15f;
     public float checkInterval = 0.12f;
+
 
     void Start()
     {
