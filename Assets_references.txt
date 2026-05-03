@@ -1,0 +1,133 @@
+=== AUDIO ===
+
+Pills pickup sound. Author: ninjasharkstudios. Source: https://ninjasharkstudios.itch.io/pill-bottle-sound-effects-free
+
+-------
+
+Handgun sounds. Author: SnakeF8. Source: https://f8studios.itch.io/snakes-second-authentic-gun-sounds-pack
+
+-------
+
+Fluorescent lamp sounds. Author: freesound_community. Source: https://pixabay.com/sound-effects/search/fluorescent/
+
+-------
+
+Exit/Entry door sounds. Author: freesound_community. Source: https://pixabay.com/sound-effects/search/metal-door/
+
+-------
+
+Diary item pickup sound. Author: freesound_community. Source: https://pixabay.com/sound-effects/search/book/
+
+-------
+
+Pools level, walking in water sound. Author: Alex_Jauk. Source: https://pixabay.com/sound-effects/search/walking%20in%20water/
+
+-------
+
+Bacteria enemy entity sounds. Author: Anbunny222. Source: https://tuna.voicemod.net/sound/a193858d-40cf-4bb9-a25e-5cf82cf853f4
+
+-------
+
+Pools level soundtracks. Author: juanjo_sound. Source: https://assetstore.unity.com/packages/audio/ambient/liminal-pools-music-pack-322099
+
+-------
+
+Bacteria enemy entity sounds. Author: CJB123. Source: https://pixabay.com/sound-effects/film-special-effects-creature-wail-223555/
+
+-------
+
+Pools level water ambient sound. Author: freesound_community. Source: https://pixabay.com/sound-effects/search/pool/
+
+-------
+
+Tutorial & Lobby soundtracks. Author: juanjo_sound. 
+Sources: 
+
+https://assetstore.unity.com/packages/audio/music/backrooms-music-pack-demo-backrooms-forever-341036
+
+https://assetstore.unity.com/packages/audio/music/backrooms-music-323663
+
+-------
+
+Bacteria & Smiley enemy sounds. Author: juanjo_sound. Source: https://assetstore.unity.com/packages/audio/sound-fx/backrooms-entity-sfx-free-325419
+
+-------
+
+Medkit & energy drink pickup sound. Author: artisticdude. Source: https://opengameart.org/content/rpg-sound-pack
+
+-------
+
+
+
+
+
+=== SPRITES ===
+
+Main character animated sprite. Author: Aiden Art. Source: https://assetstore.unity.com/packages/2d/characters/free-pixel-army-platformer-pack-168264?srsltid=AfmBOoqf_aSz7_dkTQwjv6GSPCxBFl-BTrwftao2kAOHoFl475Tfnjp5
+
+-------
+
+Smiley enemy sprite. Author: yggDrazzil. Source: https://yggdrazzil.itch.io/red-smile
+
+-------
+
+Medkit & ammo pickups. Author: fightswithbears. Source: https://fightswithbears.itch.io/2d-health-and-ammo-pickups
+
+-------
+
+
+Pills pickup item. Author: Airos. Source: https://opengameart.org/content/32px-pill-bottle
+
+-------
+
+Handgun. Author: greenpixels_. Source: https://greenpixels.itch.io/pixel-art-assets-7
+
+-------
+
+Animated water on Pools level. Author: EMI EMI GAMES. Source: https://emiemigames.itch.io/animated-water-sprites
+
+-------
+
+Cardboard boxes environment item. Author: EdgeLoopRepeat. Source: https://rs-pixel-store.itch.io/cardboard-boxes
+
+-------
+
+
+
+
+
+=== TEXTURES & MAP DESIGN ===
+
+Lobby & Prologue levels yellow carpet floor. Author: Unknown. Source: https://ambientcg.com/view?id=Carpet011
+
+-------
+
+Prologue & Tutorial wallpaper. Author: Scans and textures. Source: https://sketchfab.com/3d-models/the-backrooms-wallpaper-texture-f7d2757432f94a2bb366c9a41503647b#download
+
+-------
+
+Lobby & Pools map outlines. Generated/Inspired/replicated with random maze generator. Source: https://www.mazegenerator.net
+
+-------
+
+Pools level tiles. Author: methodical pixel. Source: https://opengameart.org/content/backrooms-pbr-texture-pack
+
+-------
+
+
+
+
+
+=== ASSETS GENERATED WITH AI (ChatGPT) ===
+
+- Diary page UI
+
+- Tutorial pop up window
+
+- Random non-intractable environment items (Yellow protective suit, pool items, random floor markings etc.)
+
+- Bacteria enemy sprite & animation frames (compiled manually)
+
+
+
+
